@@ -56,8 +56,8 @@ export default [
     "name": "Aldrovanda vesiculosa",
     "shortDescription": "Conhecida como Planta-Roda-d'Água, é uma planta aquática carnívora.",
     "description": "A Aldrovanda vesiculosa é uma planta carnívora aquática que captura presas com armadilhas submersas semelhantes a roda-d'água.",
-    "imageUrl": " ",
-    "imageUrl": " ",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/AldrovandaVesiculosaHabit.jpg ",
+    "imageUrl": "https://carnivorousplantresource.com/wp-content/uploads/2017/02/Aldrovanda-vesiculosa-trap.jpg ",
      "facts": {
       "altura": 0.25,
       "preco": 6,
