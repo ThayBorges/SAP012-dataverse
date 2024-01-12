@@ -1,378 +1,325 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": 1, //"venus-flytrap",
+    "name": "Dionaea muscipula",
+    "shortDescription": "Conhecida como Armadilha de Vênus, é uma das mais famosas plantas carnívoras.",
+    "description": "A Dionaea muscipula é nativa das áreas úmidas dos Estados Unidos e é famosa por suas folhas em forma de armadilha.",
+    "imageUrl": "https://images.tcdn.com.br/img/img_prod/1061386/planta_carnivora_dionaea_muscipula_g3_x_g14_25_1_15e66452c7b491d3fbc1d5acc68669c6.jpg ",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Venus_Flytrap_showing_trigger_hairs.jpg/266px-Venus_Flytrap_showing_trigger_hairs.jpg ",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "altura": 0.3,
+      "preco": 5,
+      "facilidadeCriacao": 1
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": 2,//"pitcher-plant",
+    "name": "Nepenthes Merrilliana",
+    "shortDescription": "Conhecida como Planta-Jarro, possui folhas transformadas em jarros que capturam presas.",
+    "description": "O gênero Nepenthes é composto por plantas carnívoras com folhas transformadas em jarros, utilizadas para capturar insetos.",
+    "imageUrl": "https://images.tcdn.com.br/img/img_prod/1061247/planta_carnivora_nepenthes_nepenthes_merrilliana_547_1_3c80d8ff0616820767b3762054167d16.jpg ",
+    "imageUrl": "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F9ufszlwurg1a1.jpg ",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "altura": 0.15,
+      "preco": 6,
+      "facilidadeCriacao": 1
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": 3,//"sundew",
+    "name": "Drosera",
+    "shortDescription": "Conhecida como Orvalhinha, possui tentáculos pegajosos para capturar presas.",
+    "description": "A Drosera é um gênero de plantas carnívoras que utiliza tentáculos pegajosos para capturar e digerir insetos.",
+    "imageUrl": "https://cdn.awsli.com.br/1539/1539472/produto/122616580/2c8f176eef.jpg ",
+    "imageUrl": "https://i.pinimg.com/1200x/c5/41/43/c54143791d93fcb0692bf2344e51e4d5.jpg  ",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "altura": 0.45,
+      "preco": 9,
+      "facilidadeCriacao": 3
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": 4, //"cobra-plant",
+    "name": "Darlingtonia californica",
+    "shortDescription": "Conhecida como Planta-Cobra, tem folhas em forma de cobra que capturam insetos.",
+    "description": "A Darlingtonia californica é nativa do oeste dos Estados Unidos e possui folhas em forma de cobra para capturar insetos.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Darlingtonia_californica_ne8.JPG/560px-Darlingtonia_californica_ne8.JPG ",
+    "imageUrl": "https://i.pinimg.com/originals/f9/19/33/f9193376b1cbe985508cf9df27dfa274.jpg ",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "altura": 0.2,
+      "preco": 6.9,
+      "facilidadeCriacao": 2
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    "id": 5,//"waterwheel-plant",
+    "name": "Aldrovanda vesiculosa",
+    "shortDescription": "Conhecida como Planta-Roda-d'Água, é uma planta aquática carnívora.",
+    "description": "A Aldrovanda vesiculosa é uma planta carnívora aquática que captura presas com armadilhas submersas semelhantes a roda-d'água.",
+    "imageUrl": " ",
+    "imageUrl": " ",
+     "facts": {
+      "altura": 0.25,
+      "preco": 6,
+      "facilidadeCriacao": 2
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    "id": 6, //"purple-pitcher-plant",
+    "name": "Sarracenia purpurea",
+    "shortDescription": "Conhecida como Planta-Jarro-Roxo, possui jarros coloridos e atrativos para presas.",
+    "description": "A Sarracenia purpurea é uma planta carnívora com jarros coloridos e atrativos que capturam insetos.",
+    "imageUrl": "https://m.media-amazon.com/images/I/516sQMw2XnL._AC_UF894,1000_QL80_.jpg ",
+    "imageUrl": "https://bugwoodcloud.org/images/768x512/5562454.jpg ",
+     "facts": {
+      "altura": 0.43,
+      "preco": 8.6,
+      "facilidadeCriacao": 3
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+    "id": 7, //"trumpet-pitcher-plant",
+    "name": "Sarracenia flava",
+    "shortDescription": "Conhecida como Planta-Jarro-Trombeta, destaca-se por seus jarros em forma de trombeta.",
+    "description": "A Sarracenia flava possui jarros em forma de trombeta que atraem e capturam insetos para obtenção de nutrientes.",
+    "imageUrl": "https://i.pinimg.com/474x/3e/8b/b7/3e8bb73d4e99b56c49fbf10c43f790ad.jpg ",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Kew_Gardens_-_Sarracenia_Flava.JPG/800px-Kew_Gardens_-_Sarracenia_Flava.JPG ",
+   "facts": {
+      "altura": 0.15,
+      "preco": 4.5,
+      "facilidadeCriacao": 1
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+    "id": 8, //"pinguicula",
+    "name": "Pinguicula Moranensis",
+    "shortDescription": "Conhecida como Grassette, é um gênero de plantas carnívoras com folhas adesivas.",
+    "description": "O gênero Pinguicula é composto por plantas carnívoras com folhas adesivas que capturam insetos.",
+    "imageUrl": "https://www.floresefolhagens.com.br/wp-content/uploads/2021/07/pinguicula-plantas-carnivoras-1-3.jpg ",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Pinguicula_moranensis.jpg/1200px-Pinguicula_moranensis.jpg ",
+     "facts": {
+      "altura": 0.3,
+      "preco": 5,
+      "facilidadeCriacao": 1
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": 9, //"rattlesnake-plant",
+    "name": "Sarracenia leucophylla",
+    "shortDescription": "Conhecida como Planta-Jarro-Cascavel, possui jarros atraentes para presas.",
+    "description": "A Sarracenia leucophylla é uma planta carnívora com jarros atraentes que capturam insetos para obtenção de nutrientes.",
+    "imageUrl": "https://pt.wikipedia.org/wiki/Sarracenia_leucophylla#/media/Ficheiro:Sarracenia_leucophylla_at_the_Brooklyn_Botanic_Garden_(81396)b.jpg ",
+    "imageUrl": "https://i.pinimg.com/736x/b2/1a/be/b21abee2cacae565897db5830505fe35.jpg ",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+      "altura": 0.8,
+      "preco": 10,
+      "facilidadeCriacao": 2
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": 10, //"albany-pitcher-plant",
+    "name": "Cephalotus follicularis",
+    "shortDescription": "Conhecida como Planta-Jarro-de-Albany, é nativa da Austrália e possui folhas em forma de jarro.",
+    "description": "A Cephalotus follicularis é uma planta carnívora com folhas em forma de jarro que capturam insetos.",
+    "imageUrl": "https://files.ekmcdn.com/hampshirecarni/images/cf001-cephalotus-follicularis-medium-1585-p.jpeg  ",
+    "imageUrl": "https://curiousplant.com/wp-content/uploads/2019/03/cephalotus-follicularis-7.jpg ",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "altura": 0.75,
+      "preco": 7.5,
+      "facilidadeCriacao": 1
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": 11, //"utricularia",
+    "name": "Utricularia",
+    "shortDescription": "Conhecida como Bexiga-d'Água, possui armadilhas submersas para capturar micro-organismos aquáticos.",
+    "description": "O gênero Utricularia é composto por plantas carnívoras aquáticas com armadilhas submersas para capturar micro-organismos.",
+    "imageUrl": "https://newfs.s3.amazonaws.com/taxon-images-1000s1000/Lentibulariaceae/utricularia-cornuta-fl-ahaines-b.jpg ",
+    "imageUrl": "https://as1.ftcdn.net/v2/jpg/03/85/81/64/1000_F_385816489_4JISa3f7G1OBZ35oqY81bql8DMGii72c.jpg ",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "altura": 0.78,
+      "preco": 9.5,
+      "facilidadeCriacao": 2
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": 12, //"corkscrew-plant",
+    "name": "Genlisea",
+    "shortDescription": "Conhecida como Planta-Espiral, possui armadilhas em espiral para capturar presas.",
+    "description": "O gênero Genlisea é composto por plantas carnívoras com armadilhas em espiral que capturam insetos e micro-organismos.",
+    "imageUrl": "https://seedsandall.co.za/wp-content/uploads/2023/06/Genlisea-hispidula1.jpg ",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Genlisea_violacea_giant.jpg ",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "altura": 0.2,
+      "preco": 3.5,
+      "facilidadeCriacao": 2
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": 13,
+    "name": "Drosophyllum Lusitanicum",
+    "shortDescription": "Conhecida como Folha-Pegajosa, é nativa da África do Sul e possui folhas com pelos pegajosos que capturam insetos.",
+    "description": "A Drosophyllum lusitanicum é uma planta carnívora com folhas cobertas de pelos pegajosos que secretam uma substância pegajosa. Quando um inseto pousa na folha, fica preso no muco e é digerido pelas enzimas da planta.",
+    "imageUrl": "https://www.floresefolhagens.com.br/wp-content/uploads/2021/06/drosophyllum-plantas-carnivoras-1-3.jpg ",
+    "imageUrl": "https://flora-on.pt/Drosophyllum-lusitanicum_ori_qgiV.jpg ",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "altura": 0.2,
+      "preco": 3.0,
+      "facilidadeCriacao": 1
     }
   },
-  {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+
+     {
+    "id": 14,
+    "name": "Utricularia Dichotoma",
+    "shortDescription": "Uma planta aquática carnívora.",
+    "description": "Utricularia dichotoma é uma planta carnívora aquática pertencente ao gênero Utricularia. Ela é conhecida por suas pequenas armadilhas subaquáticas que capturam organismos microscópicos.",
+    "imageUrl": "https://apps.lucidcentral.org/plants_se_nsw/images/entities/utricularia_dichotoma/utricularia_dichotoma_apii_colin_totterdell_long_gully_road.jpg ",
+    "imageUrl": "https://apps.lucidcentral.org/plants_se_nsw/images/entities/utricularia_dichotoma/utricularia_dichotoma_c435.jpg ",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "altura": 0.20,
+      "preco": 2,
+      "facilidadeCriacao": 2
     }
   },
-  {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+
+    {
+    "id": 15, // "heliamphora",
+    "name": "Heliamphora",
+    "shortDescription": "Gênero de plantas carnívoras conhecidas como Jarro-do-Gênero Heliamphora.",
+    "description": "Heliamphora é um gênero de plantas carnívoras nativas de regiões montanhosas da América do Sul. Elas são conhecidas por suas folhas em forma de jarro que capturam insetos para obter nutrientes.",
+    "imageUrl": "https://cdn.awsli.com.br/2500x2500/441/441644/produto/231249009/f9c369bed33f67c75674620680a0736b-rzwogcnart.jpg ",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/H_chimantensis2.jpg ",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "altura": 1.45,
+      "preco": 40,
+      "facilidadeCriacao": 2
     }
   },
-  {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+
+    {
+    "id": 16, // "byblis",
+    "name": "Byblis",
+    "shortDescription": "Gênero de plantas carnívoras conhecidas como Orvalhão.",
+    "description": "Byblis é um gênero de plantas carnívoras conhecidas por suas folhas pegajosas que capturam insetos. Elas são encontradas principalmente na Austrália.",
+    "imageUrl": "https://www.floresefolhagens.com.br/wp-content/uploads/2021/06/byblis-plantas-carnivoras-.jpg ",
+    "imageUrl": "https://www.fierceflora.com/wp-content/uploads/2022/11/20221004-Byblis-gigantea-5.jpg ",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "altura": 1,
+      "preco": 25,
+      "facilidadeCriacao": 2
     }
   },
-  {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+
+    {
+    "id": 17, // "brocchinia_reducta",
+    "name": "Brocchinia reducta",
+    "shortDescription": "Planta carnívora conhecida como Planta-Pitfall.",
+    "description": "Brocchinia reducta é uma planta carnívora encontrada em regiões da América do Sul. Ela atrai insetos para suas armadilhas que contêm líquidos digestivos.",
+    "imageUrl": "https://curiousplant.com/wp-content/uploads/2022/03/brocchinia-reducta-6.jpg ",
+    "imageUrl": "https://30fab8c749.cbaul-cdnwnd.com/1e0037654cece5ba153a87293c60dfe4/200000321-8495d858fc/Brocchinia%20Reducta.jpg ",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "altura": 0.60,
+      "preco": 60,
+      "facilidadeCriacao": 2
     }
   },
-  {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+
+    {
+    "id": 18, //"catopsis",
+    "name": "Catopsis",
+    "shortDescription": "Gênero de plantas carnívoras conhecidas como Planta-Copo.",
+    "description": "Catopsis é um gênero de plantas carnívoras epífitas encontradas em regiões tropicais. Elas capturam presas usando folhas modificadas.",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1627982/large.jpg ",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Catopsis_berteroniana_1586219.jpg/1200px-Catopsis_berteroniana_1586219.jpg ",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "altura": 1.3,
+      "preco": 35,
+      "facilidadeCriacao": 2
     }
   },
-  {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+
+    {
+    "id": 19,// "triphyophyllum",
+    "name": "Triphyophyllum",
+    "shortDescription": "Gênero de plantas carnívoras conhecidas como Planta-Garrafa.",
+    "description": "Triphyophyllum é um gênero de plantas carnívoras encontradas na África. Elas são notáveis por suas folhas modificadas em forma de garrafa que capturam presas.",
+    "imageUrl": "https://scitechdaily.com/images/Carnivorous-Leaf.jpg ",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Triphyophyllum_peltatum.jpg ",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "altura": 0.90,
+      "preco": 38,
+      "facilidadeCriacao": 2
     }
   },
-  {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+
+    {
+    "id": 20, // "roridula",
+    "name": "Roridula",
+    "shortDescription": "Gênero de plantas carnívoras conhecidas como Planta-Pitfall da África do Sul.",
+    "description": "Roridula é um gênero de plantas carnívoras encontradas na África do Sul. Elas possuem folhas pegajosas que ajudam na captura de presas.",
+    "imageUrl": "https://curiousplant.com/wp-content/uploads/2020/03/roridula-gorgonias-11.jpg ",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Roridula_gorgonias_Rebelo_2.jpg ",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "altura": 1.2,
+      "preco": 29,
+      "facilidadeCriacao": 2
     }
   },
-  {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+
+    {
+    "id": 21, //"sarracenia_psittacina",
+    "name": "Sarracenia psittacina",
+    "shortDescription": "Espécie de Jarro-de-Sarracenia conhecida como Jarro-de-Sarracenia-Periquito.",
+    "description": "Sarracenia psittacina é uma espécie de planta carnívora do gênero Sarracenia, reconhecida por suas folhas em forma de trombeta e coloração vibrante. É comumente chamada de Jarro-de-Sarracenia-Periquito.",
+    "imageUrl": "https://s3.amazonaws.com/eit-planttoolbox-prod/media/images/Sarracenia-psittacina--Eleanor--CC-BY-NC.jpg ",
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/162016310/original.jpg ",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+      "altura": 0.60,
+      "preco": 44,
+      "facilidadeCriacao": 2
     }
   },
-  {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+
+    {
+    "id": 22, // "sarracenia_oreophila",
+    "name": "Sarracenia oreophila",
+    "shortDescription": "Espécie de Jarro-de-Sarracenia conhecida como Jarro-de-Sarracenia-das-Montanhas.",
+    "description": "Sarracenia oreophila é uma espécie de planta carnívora do gênero Sarracenia, encontrada em áreas montanhosas. Suas folhas em forma de jarro são distintas.",
+    "imageUrl": "https://curiousplant.com/wp-content/uploads/2020/03/sarracenia-oreophila-4.jpg ",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sarracenia_%28oreophila_x_purpurea%29_x_flava_%286080793103%29.jpg ",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+      "altura": 0.90,
+      "preco": 33,
+      "facilidadeCriacao": 2
     }
   },
-  {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+
+    {
+    "id": 23, //"nepenthes_villosa",
+    "name": "Nepenthes villosa",
+    "shortDescription": "Espécie de planta carnívora conhecida como Nepenthes villosa.",
+    "description": "Nepenthes villosa é uma espécie de planta carnívora pertencente ao gênero Nepenthes. Ela é reconhecida por suas armadilhas em forma de jarro que capturam insetos para obter nutrientes.",
+    "imageUrl": "https://bergenwatergardens.com/wp-content/uploads/2023/11/BE-4045g-juvenile-pitcher-of-one-clone.jpg ",
+    "imageUrl": "https://i.pinimg.com/736x/e4/f0/35/e4f03534c2bd8eb9bf9227bdd03a7e43.jpg ",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+      "altura": 0.30,
+      "preco": 42,
+      "facilidadeCriacao": 2
     }
   },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+
+    {
+    "id": 24, //"triphyophyllum_peltatum",
+    "name": "Triphyophyllum peltatum",
+    "shortDescription": "Espécie de planta carnívora conhecida como Triphyophyllum peltatum.",
+    "description": "Triphyophyllum peltatum é uma espécie de planta carnívora pertencente ao gênero Triphyophyllum. Ela é notável por suas folhas modificadas e estratégias de captura de presas para obter nutrientes.",
+    "imageUrl": "https://live.staticflickr.com/3889/14389337225_acc18029b0_b.jpg ",
+    "imageUrl": "https://live.staticflickr.com/3912/14409508853_869294a7ba_b.jpg ",
     "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
+      "altura": 3,
+      "preco": 99,
+      "facilidadeCriacao": 2
     }
-  }
-];
+  },
+]
