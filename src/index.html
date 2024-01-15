@@ -9,14 +9,28 @@
 
     <header><h1>Plantas Carnivoras</h1></header>
 
-    <main id="root"> 
-      
+    <main id="root">
+
+      <h2>Lista de Plantas</h2>
 
 
-      </ul>
+      <select data-testid="selecionar-filtro" name="tipo">Filtar</select>
+      <option value="especie">Espécie</option>
+      <option value="idade">Idade</option>
 
+      <select data-testid="selecionar-ordenar" name="nome">Ordenar</select>
+      <option value="desc">De Z-A</option>
+      <option value="asc">De A-Z</option>
 
-      
+      <select name="ordem-ordenacao"></select>
+      <input type="radio" id="desc"/>
+      <label for="desc"></label>
+
+      <input type="radio" id="asc"/>
+      <label for="asc"></label>
+
+      <button data-testid="botao-limpar">Limpar</button>
+
     </main>
     <footer>Em criação com ♥ by Laboratória</footer>
     <script src="main.js" type="module"></script>
