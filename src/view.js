@@ -12,6 +12,6 @@ export const renderItems = (data) => {
         </li>
   `
   }
-  return "<ul>" + blocoItems + "</ul>";
+  return blocoItems;
 
 };

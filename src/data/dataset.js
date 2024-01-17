@@ -17,8 +17,8 @@ export default [
     "name": "Nepenthes Merrilliana",
     "shortDescription": "Conhecida como Planta-Jarro, possui folhas transformadas em jarros que capturam presas.",
     "description": "O gênero Nepenthes é composto por plantas carnívoras com folhas transformadas em jarros, utilizadas para capturar insetos.",
-    "imageUrl": "https://images.tcdn.com.br/img/img_prod/1061247/planta_carnivora_nepenthes_nepenthes_merrilliana_547_1_3c80d8ff0616820767b3762054167d16.jpg ",
-    "imageUrl": "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F9ufszlwurg1a1.jpg ",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Nepenthes_merrilliana_young_plant.jpg ",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Nepenthes_merrilliana_terrestrial_pitcher.jpg/301px-Nepenthes_merrilliana_terrestrial_pitcher.jpg ",
     "facts": {
       "altura": 0.15,
       "preco": 6,
