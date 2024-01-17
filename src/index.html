@@ -1,24 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dataverse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
 
-    <header><h1>Plantas Carnivoras</h1></header>
+<head>
+  <meta charset="utf-8">
+  <title>Dataverse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <main id="root"> 
-      
+<body>
+
+  <header>
+    <h1>Plantas Carnivoras</h1>
+  </header>
+
+  <main id="root">
+
+    <h2>Lista de Plantas</h2>
+
+    <label for="tipo">Classificar por: </label>
+    <select data-testid="selecionar-filtro" id="tipo">
+      <option value="default"></option>
+      <option value="altura">Altura</option>
+      <option value="preco">Preço</option>
+      <option value="facilidadeDeCriacao">Facilidade de criação</option>
+    </select>
+
+    <label for="nome">E</label>
+    <select data-testid="selecionar-ordenar" id="nome">
+      <option value="default"></option>
+      <option value="asc">Do menor pro maior</option>
+      <option value="desc">Do maior pro menor</option>
+    </select>
 
 
-      </ul>
+    <button data-testid="botao-limpar" id="botao-limpar">Limpar</button>
 
+    <ul id="plant__list">
 
-      
-    </main>
-    <footer>Em criação com ♥ by Laboratória</footer>
-    <script src="main.js" type="module"></script>
-  </body>
+    </ul>
+
+  </main>
+  <footer>Em criação com ♥ by Laboratória</footer>
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>
