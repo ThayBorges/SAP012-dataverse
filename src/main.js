@@ -10,7 +10,7 @@ const plantList = document.getElementById('plant__list')
 plantList.innerHTML = renderItems(data);
 
 const selectTipo = document.getElementById("tipo")
-const selectNome = document.getElementById("nome")
+const selectNome = document.getElementById("name")
 const button = document.getElementById("botao-limpar");
 button.addEventListener('click', function () {
   selectTipo.value = "default"
