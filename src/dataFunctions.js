@@ -1,3 +1,5 @@
+// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
+
 export const sortBy = (data, value, order) => {
   data.sort(function ordenacao(a,b) {
     if(value === "altura"){
@@ -17,4 +19,3 @@ export const sortBy = (data, value, order) => {
 //export const filterby = (data, value) => {
 //  return [];
 //};
-
