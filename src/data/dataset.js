@@ -9,7 +9,7 @@ export default [
     "facts": {
       "altura": 0.3,
       "preco": 5,
-      "facilidadeCriacao": 1
+      "facilidadeCriacao": "Fácil"
     }
   },
   {
@@ -22,7 +22,7 @@ export default [
     "facts": {
       "altura": 0.15,
       "preco": 6,
-      "facilidadeCriacao": 1
+      "facilidadeCriacao": "Fácil"
     }
   },
   {
@@ -35,7 +35,7 @@ export default [
     "facts": {
       "altura": 0.45,
       "preco": 9,
-      "facilidadeCriacao": 3
+      "facilidadeCriacao": "Difícil"
     }
   },
   {
@@ -48,7 +48,7 @@ export default [
     "facts": {
       "altura": 0.2,
       "preco": 6.9,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
   {
@@ -61,7 +61,7 @@ export default [
      "facts": {
       "altura": 0.25,
       "preco": 6,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
   {
@@ -74,7 +74,7 @@ export default [
      "facts": {
       "altura": 0.43,
       "preco": 8.6,
-      "facilidadeCriacao": 3
+      "facilidadeCriacao": "Difícil"
     }
   },
   {
@@ -87,7 +87,7 @@ export default [
    "facts": {
       "altura": 0.15,
       "preco": 4.5,
-      "facilidadeCriacao": 1
+      "facilidadeCriacao": "Fácil"
     }
   },
   {
@@ -100,7 +100,7 @@ export default [
      "facts": {
       "altura": 0.3,
       "preco": 5,
-      "facilidadeCriacao": 1
+      "facilidadeCriacao": "Fácil"
     }
   },
   {
@@ -113,7 +113,7 @@ export default [
     "facts": {
       "altura": 0.8,
       "preco": 10,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
   {
@@ -126,7 +126,7 @@ export default [
     "facts": {
       "altura": 0.75,
       "preco": 7.5,
-      "facilidadeCriacao": 1
+      "facilidadeCriacao": "Fácil"
     }
   },
   {
@@ -139,7 +139,7 @@ export default [
     "facts": {
       "altura": 0.78,
       "preco": 9.5,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
   {
@@ -152,7 +152,7 @@ export default [
     "facts": {
       "altura": 0.2,
       "preco": 3.5,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
   {
@@ -165,7 +165,7 @@ export default [
     "facts": {
       "altura": 0.2,
       "preco": 3.0,
-      "facilidadeCriacao": 1
+      "facilidadeCriacao": "Fácil"
     }
   },
 
@@ -179,7 +179,7 @@ export default [
     "facts": {
       "altura": 0.20,
       "preco": 2,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
 
@@ -193,7 +193,7 @@ export default [
     "facts": {
       "altura": 1.45,
       "preco": 40,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
 
@@ -207,7 +207,7 @@ export default [
     "facts": {
       "altura": 1,
       "preco": 25,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
 
@@ -221,7 +221,7 @@ export default [
     "facts": {
       "altura": 0.60,
       "preco": 60,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
 
@@ -235,7 +235,7 @@ export default [
     "facts": {
       "altura": 1.3,
       "preco": 35,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
 
@@ -249,7 +249,7 @@ export default [
     "facts": {
       "altura": 0.90,
       "preco": 38,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
 
@@ -263,7 +263,7 @@ export default [
     "facts": {
       "altura": 1.2,
       "preco": 29,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
 
@@ -277,7 +277,7 @@ export default [
     "facts": {
       "altura": 0.60,
       "preco": 44,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
 
@@ -291,7 +291,7 @@ export default [
     "facts": {
       "altura": 0.90,
       "preco": 33,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
 
@@ -305,7 +305,7 @@ export default [
     "facts": {
       "altura": 0.30,
       "preco": 42,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
 
@@ -319,7 +319,7 @@ export default [
     "facts": {
       "altura": 3,
       "preco": 99,
-      "facilidadeCriacao": 2
+      "facilidadeCriacao": "Moderado"
     }
   },
 ]
