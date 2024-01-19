@@ -8,10 +8,13 @@ export const renderItems = (data) => {
         <li>
           <div class="plant__content">
             <img src="${data[i].imageUrl}" class="plant__img">
-            <div>
-              <h2>${data[i].name}<h2>
-              <h4>${data[i].description}</h4>
-            </div>
+            <ul class="facts">
+              <li>${data[i].name}</li>
+              <li>${data[i].description}</li>
+              <li>Altura: ${data[i].facts.altura}</li>
+              <li>Preço: R\$ ${data[i].facts.preco.toFixed(2)}</li>
+              <li>Facilidade de Criação: ${data[i].facts.facilidadeCriacao}</li>
+            </ul>
           </div>
         </li>
   `
