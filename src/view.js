@@ -4,14 +4,23 @@ export const renderItems = (data) => {
 
   for (let i = 0; i < data.length; i++) {
 
-    blocoItems +=  `
+    blocoItems += `
         <li>
-            <h2>${data[i].name}<h2>
+          <div class="plant__content">
             <img src="${data[i].imageUrl}" class="plant__img">
-            <h4>${data[i].description}</h4>
+            <div>
+              <h2>${data[i].name}<h2>
+              <h4>${data[i].description}</h4>
+            </div>
+          </div>
         </li>
   `
   }
   return blocoItems;
 
 };
+
+// $ é interpolação
+// variáveis precisam ser inseridas com um sifrão ($) e entre chaves ({nome})
+// string entre crases (`)
+//Para adicionar a segunda imagem <img src="${data[i].imageUrl2}" class="plant__img">
