@@ -35,11 +35,8 @@ export default [
     "facts": {
       "altura": 0.45,
       "preco": 9,
-<<<<<<< HEAD
       "facilidadeCriacao": "Fácil"
-=======
-      "facilidadeCriacao": "Difícil"
->>>>>>> feature/dataset_js
+
     }
   },
   {
@@ -78,11 +75,8 @@ export default [
      "facts": {
       "altura": 0.43,
       "preco": 8.6,
-<<<<<<< HEAD
       "facilidadeCriacao": "Difil"
-=======
-      "facilidadeCriacao": "Difícil"
->>>>>>> feature/dataset_js
+
     }
   },
   {
@@ -285,11 +279,7 @@ export default [
     "facts": {
       "altura": 0.60,
       "preco": 44,
-<<<<<<< HEAD
       "facilidadeCriacao": "Difícil"
-=======
-      "facilidadeCriacao": "Moderado"
->>>>>>> feature/dataset_js
     }
   },
 
@@ -317,11 +307,8 @@ export default [
     "facts": {
       "altura": 0.30,
       "preco": 42,
-<<<<<<< HEAD
       "facilidadeCriacao": "Fácil"
-=======
-      "facilidadeCriacao": "Moderado"
->>>>>>> feature/dataset_js
+
     }
   },
 
@@ -335,11 +322,7 @@ export default [
     "facts": {
       "altura": 3,
       "preco": 99,
-<<<<<<< HEAD
       "facilidadeCriacao": "Dífil"
-=======
-      "facilidadeCriacao": "Moderado"
->>>>>>> feature/dataset_js
     }
   },
 ]
