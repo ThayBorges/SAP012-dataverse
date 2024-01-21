@@ -16,6 +16,12 @@ export const sortBy = (data, value, order) => {
   return data;
 };
 
+<<<<<<< HEAD
 //export const filterby = (data, value) => {
 //  return [];
 //};
+=======
+export const anotherExample = () => {
+  return [];
+};
+>>>>>>> feature/dataset_js
