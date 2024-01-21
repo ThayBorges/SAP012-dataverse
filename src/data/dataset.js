@@ -1,6 +1,6 @@
 export default [
   {
-    "id": 1, //"venus-flytrap",
+    "id": "venus-flytrap",
     "name": "Dionaea muscipula",
     "shortDescription": "Conhecida como Armadilha de Vênus, é uma das mais famosas plantas carnívoras.",
     "description": "A Dionaea muscipula é nativa das áreas úmidas dos Estados Unidos e é famosa por suas folhas em forma de armadilha.",
@@ -13,7 +13,7 @@ export default [
     }
   },
   {
-    "id": 2,//"pitcher-plant",
+    "id": "pitcher-plant",
     "name": "Nepenthes Merrilliana",
     "shortDescription": "Conhecida como Planta-Jarro, possui folhas transformadas em jarros que capturam presas.",
     "description": "O gênero Nepenthes é composto por plantas carnívoras com folhas transformadas em jarros, utilizadas para capturar insetos.",
@@ -26,7 +26,7 @@ export default [
     }
   },
   {
-    "id": 3,//"sundew",
+    "id": "sundew",
     "name": "Drosera",
     "shortDescription": "Conhecida como Orvalhinha, possui tentáculos pegajosos para capturar presas.",
     "description": "A Drosera é um gênero de plantas carnívoras que utiliza tentáculos pegajosos para capturar e digerir insetos.",
@@ -39,7 +39,7 @@ export default [
     }
   },
   {
-    "id": 4, //"cobra-plant",
+    "id": "cobra-plant",
     "name": "Darlingtonia californica",
     "shortDescription": "Conhecida como Planta-Cobra, tem folhas em forma de cobra que capturam insetos.",
     "description": "A Darlingtonia californica é nativa do oeste dos Estados Unidos e possui folhas em forma de cobra para capturar insetos.",
@@ -52,7 +52,7 @@ export default [
     }
   },
   {
-    "id": 5,//"waterwheel-plant",
+    "id": "waterwheel-plant",
     "name": "Aldrovanda vesiculosa",
     "shortDescription": "Conhecida como Planta-Roda-d'Água, é uma planta aquática carnívora.",
     "description": "A Aldrovanda vesiculosa é uma planta carnívora aquática que captura presas com armadilhas submersas semelhantes a roda-d'água.",
@@ -65,7 +65,7 @@ export default [
     }
   },
   {
-    "id": 6, //"purple-pitcher-plant",
+    "id": "purple-pitcher-plant",
     "name": "Sarracenia purpurea",
     "shortDescription": "Conhecida como Planta-Jarro-Roxo, possui jarros coloridos e atrativos para presas.",
     "description": "A Sarracenia purpurea é uma planta carnívora com jarros coloridos e atrativos que capturam insetos.",
@@ -78,7 +78,7 @@ export default [
     }
   },
   {
-    "id": 7, //"trumpet-pitcher-plant",
+    "id": "trumpet-pitcher-plant",
     "name": "Sarracenia flava",
     "shortDescription": "Conhecida como Planta-Jarro-Trombeta, destaca-se por seus jarros em forma de trombeta.",
     "description": "A Sarracenia flava possui jarros em forma de trombeta que atraem e capturam insetos para obtenção de nutrientes.",
@@ -91,7 +91,7 @@ export default [
     }
   },
   {
-    "id": 8, //"pinguicula",
+    "id": "pinguicula",
     "name": "Pinguicula Moranensis",
     "shortDescription": "Conhecida como Grassette, é um gênero de plantas carnívoras com folhas adesivas.",
     "description": "O gênero Pinguicula é composto por plantas carnívoras com folhas adesivas que capturam insetos.",
@@ -104,7 +104,7 @@ export default [
     }
   },
   {
-    "id": 9, //"rattlesnake-plant",
+    "id": "rattlesnake-plant",
     "name": "Sarracenia leucophylla",
     "shortDescription": "Conhecida como Planta-Jarro-Cascavel, possui jarros atraentes para presas.",
     "description": "A Sarracenia leucophylla é uma planta carnívora com jarros atraentes que capturam insetos para obtenção de nutrientes.",
@@ -117,7 +117,7 @@ export default [
     }
   },
   {
-    "id": 10, //"albany-pitcher-plant",
+    "id": "albany-pitcher-plant",
     "name": "Cephalotus follicularis",
     "shortDescription": "Conhecida como Planta-Jarro-de-Albany, é nativa da Austrália e possui folhas em forma de jarro.",
     "description": "A Cephalotus follicularis é uma planta carnívora com folhas em forma de jarro que capturam insetos.",
@@ -130,7 +130,7 @@ export default [
     }
   },
   {
-    "id": 11, //"utricularia",
+    "id": "utricularia",
     "name": "Utricularia",
     "shortDescription": "Conhecida como Bexiga-d'Água, possui armadilhas submersas para capturar micro-organismos aquáticos.",
     "description": "O gênero Utricularia é composto por plantas carnívoras aquáticas com armadilhas submersas para capturar micro-organismos.",
@@ -143,7 +143,7 @@ export default [
     }
   },
   {
-    "id": 12, //"corkscrew-plant",
+    "id": "corkscrew-plant",
     "name": "Genlisea",
     "shortDescription": "Conhecida como Planta-Espiral, possui armadilhas em espiral para capturar presas.",
     "description": "O gênero Genlisea é composto por plantas carnívoras com armadilhas em espiral que capturam insetos e micro-organismos.",
@@ -156,7 +156,7 @@ export default [
     }
   },
   {
-    "id": 13,
+    "id": "sticky-sheet",
     "name": "Drosophyllum Lusitanicum",
     "shortDescription": "Conhecida como Folha-Pegajosa, é nativa da África do Sul e possui folhas com pelos pegajosos que capturam insetos.",
     "description": "A Drosophyllum lusitanicum é uma planta carnívora com folhas cobertas de pelos pegajosos que secretam uma substância pegajosa. Quando um inseto pousa na folha, fica preso no muco e é digerido pelas enzimas da planta.",
@@ -170,7 +170,7 @@ export default [
   },
 
      {
-    "id": 14,
+    "id": "water plant",
     "name": "Utricularia Dichotoma",
     "shortDescription": "Uma planta aquática carnívora.",
     "description": "Utricularia dichotoma é uma planta carnívora aquática pertencente ao gênero Utricularia. Ela é conhecida por suas pequenas armadilhas subaquáticas que capturam organismos microscópicos.",
@@ -184,7 +184,7 @@ export default [
   },
 
     {
-    "id": 15, // "heliamphora",
+    "id": "heliamphora",
     "name": "Heliamphora",
     "shortDescription": "Gênero de plantas carnívoras conhecidas como Jarro-do-Gênero Heliamphora.",
     "description": "Heliamphora é um gênero de plantas carnívoras nativas de regiões montanhosas da América do Sul. Elas são conhecidas por suas folhas em forma de jarro que capturam insetos para obter nutrientes.",
@@ -198,7 +198,7 @@ export default [
   },
 
     {
-    "id": 16, // "byblis",
+    "id": "byblis",
     "name": "Byblis",
     "shortDescription": "Gênero de plantas carnívoras conhecidas como Orvalhão.",
     "description": "Byblis é um gênero de plantas carnívoras conhecidas por suas folhas pegajosas que capturam insetos. Elas são encontradas principalmente na Austrália.",
@@ -212,7 +212,7 @@ export default [
   },
 
     {
-    "id": 17, // "brocchinia_reducta",
+    "id": "brocchinia_reducta",
     "name": "Brocchinia reducta",
     "shortDescription": "Planta carnívora conhecida como Planta-Pitfall.",
     "description": "Brocchinia reducta é uma planta carnívora encontrada em regiões da América do Sul. Ela atrai insetos para suas armadilhas que contêm líquidos digestivos.",
@@ -226,7 +226,7 @@ export default [
   },
 
     {
-    "id": 18, //"catopsis",
+    "id": "catopsis",
     "name": "Catopsis",
     "shortDescription": "Gênero de plantas carnívoras conhecidas como Planta-Copo.",
     "description": "Catopsis é um gênero de plantas carnívoras epífitas encontradas em regiões tropicais. Elas capturam presas usando folhas modificadas.",
@@ -240,7 +240,7 @@ export default [
   },
 
     {
-    "id": 19,// "triphyophyllum",
+    "id": "triphyophyllum",
     "name": "Triphyophyllum",
     "shortDescription": "Gênero de plantas carnívoras conhecidas como Planta-Garrafa.",
     "description": "Triphyophyllum é um gênero de plantas carnívoras encontradas na África. Elas são notáveis por suas folhas modificadas em forma de garrafa que capturam presas.",
@@ -254,7 +254,7 @@ export default [
   },
 
     {
-    "id": 20, // "roridula",
+    "id": "roridula",
     "name": "Roridula",
     "shortDescription": "Gênero de plantas carnívoras conhecidas como Planta-Pitfall da África do Sul.",
     "description": "Roridula é um gênero de plantas carnívoras encontradas na África do Sul. Elas possuem folhas pegajosas que ajudam na captura de presas.",
@@ -268,7 +268,7 @@ export default [
   },
 
     {
-    "id": 21, //"sarracenia_psittacina",
+    "id": "sarracenia_psittacina",
     "name": "Sarracenia psittacina",
     "shortDescription": "Espécie de Jarro-de-Sarracenia conhecida como Jarro-de-Sarracenia-Periquito.",
     "description": "Sarracenia psittacina é uma espécie de planta carnívora do gênero Sarracenia, reconhecida por suas folhas em forma de trombeta e coloração vibrante. É comumente chamada de Jarro-de-Sarracenia-Periquito.",
@@ -282,7 +282,7 @@ export default [
   },
 
     {
-    "id": 22, // "sarracenia_oreophila",
+    "id": "sarracenia_oreophila",
     "name": "Sarracenia oreophila",
     "shortDescription": "Espécie de Jarro-de-Sarracenia conhecida como Jarro-de-Sarracenia-das-Montanhas.",
     "description": "Sarracenia oreophila é uma espécie de planta carnívora do gênero Sarracenia, encontrada em áreas montanhosas. Suas folhas em forma de jarro são distintas.",
@@ -296,7 +296,7 @@ export default [
   },
 
     {
-    "id": 23, //"nepenthes_villosa",
+    "id": "nepenthes_villosa",
     "name": "Nepenthes villosa",
     "shortDescription": "Espécie de planta carnívora conhecida como Nepenthes villosa.",
     "description": "Nepenthes villosa é uma espécie de planta carnívora pertencente ao gênero Nepenthes. Ela é reconhecida por suas armadilhas em forma de jarro que capturam insetos para obter nutrientes.",
@@ -310,7 +310,7 @@ export default [
   },
 
     {
-    "id": 24, //"triphyophyllum_peltatum",
+    "id": "triphyophyllum_peltatum",
     "name": "Triphyophyllum peltatum",
     "shortDescription": "Espécie de planta carnívora conhecida como Triphyophyllum peltatum.",
     "description": "Triphyophyllum peltatum é uma espécie de planta carnívora pertencente ao gênero Triphyophyllum. Ela é notável por suas folhas modificadas e estratégias de captura de presas para obter nutrientes.",
