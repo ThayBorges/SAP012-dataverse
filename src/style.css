@@ -37,7 +37,9 @@ header {
 }
 
 #plant__list {
-  display: grid; /*modo responsivo*/
+  display: flex;
+  flex-direction: column;
+  /* display: grid modo responsivo*/
   /* grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 16rem), 1fr)); */
   list-style-type: none;
   border: 1px;
