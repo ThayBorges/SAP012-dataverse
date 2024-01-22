@@ -10,8 +10,8 @@ export const renderItems = (data) => {
             <img src="${data[i].imageUrl}" class="plant__img">
             <p><strong>${data[i].name}</strong></p>
             <p class="plant__description">${data[i].description}</p>
-            <p>Altura: ${data[i].facts.altura}</p>
-            <p>Preço: R$ ${data[i].facts.preco.toFixed(2)}</p>
+            <p>Altura: ${data[i].facts.alturaPlanta}</p>
+            <p>Preço: R$ ${data[i].facts.precoPlanta.toFixed(2)}</p>
             <p>Facilidade de Criação: ${data[i].facts.facilidadeCriacao}</p>
           </div>
         </li>
@@ -25,11 +25,3 @@ export const renderItems = (data) => {
 // variáveis precisam ser inseridas com um sifrão ($) e entre chaves ({nome})
 // string entre crases (`)
 //Para adicionar a segunda imagem <img src="${data[i].imageUrl2}" class="plant__img"> /   <li>${data[i].shortDescription}</li>
-
-{/* <ul class="facts">
-<li>${data[i].name}</li>
-<li>${data[i].description}</li>
-<li>Altura: ${data[i].facts.altura}</li>
-<li>Preço: R$ ${data[i].facts.preco.toFixed(2)}</li>
-<li>Facilidade de Criação: ${data[i].facts.facilidadeCriacao}</li>
-</ul> */}

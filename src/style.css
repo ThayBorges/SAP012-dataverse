@@ -1,11 +1,9 @@
 * {
-  background: url("./assets/img.jpg");
+  background: url("./assets/img_opac.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  opacity: 100%;
-
 }
 
 #logo {
@@ -19,10 +17,11 @@ select {
 }
 
 button {
-    border-radius: 5px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+
 body {
   text-align: center;
   margin: 0;
@@ -53,10 +52,9 @@ header {
 
 }
 
-
 .plant__img {
-  max-width:600px;
-  max-height:300px;
+  max-width: 600px;
+  max-height: 300px;
   width: auto;
   height: auto;
 }
@@ -66,7 +64,7 @@ header {
 }
 
 select {
-font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #logo__footer {
