@@ -1,34 +1,90 @@
-body {
-  background-color: rgb(217, 243, 234);
-  text-align: center;
+* {
+  background: url("./assets/fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 70%;
+}
+
+select {
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
 header {
-  display: flex;
+  width: 100%;
   font-size: larger;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
-li {
-  width: 100%;
+#plant__list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  list-style-type: none;
+  text-align: center;
+}
+
+.plant__item {
+  list-style-type: none;
+  margin: 1rem;
+  width: 20%;
+  max-width: 25%;
+  padding: 16px;
+  border: 3px solid gray;
+  border-radius: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
-.class__img {
-  height: auto;
-  margin: auto;
+.plant__img {
+  max-width: 100%;
+  max-height: 150px;
+}
+
+.plant__description {
+  font-size: 5;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: justify;
+}
 
 select {
-/*a definir*/
+  font-family: 'Courier New', Courier, monospace;
+}
 
+#logo__footer {
+  width: 80px;
+  height: 80px;
+  border-radius: 70%;
 }
 
 footer {
-  text-align: right;
+  text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ @media (max-width: 36rem) {
+  ul {
+    grid-template-columns: 1fr;
+    flex-direction: row;
+  }
 }
