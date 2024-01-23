@@ -8,44 +8,47 @@
 </head>
 
 <body>
-  <p class="background"></p>
-    <header>
+  <header>
+
+    <div id="background__logo">
       <img src="./assets/logo.jpg" id="logo">
-      <h1>Bem-vindo ao Mundo das Plantas Carnívoras</h1>
-      <p>Descubra a fascinante beleza e peculiaridade dessas plantas incríveis.</p>
-    </header>
+    </div>
 
-    <main id="root">
+    <h1>Bem-vindo ao Mundo das Plantas Carnívoras</h1>
+    <p>Descubra a fascinante beleza e peculiaridade dessas plantas incríveis.</p>
+  </header>
 
-      <h2>Tipos de Plantas</h2>
+  <h2>Tipos de Plantas</h2>
 
-      <label for="tipo">Classificar por: </label>
+  <label for="select__ordering">Classificar por: </label>
+  <select name="select__ordering" id="select__ordering">
+    <option value="menor_altura">Menor altura</option>
+    <option value="maior_altura">Maior altura</option>
+    <option value="menor_preco">Menor preço</option>
+    <option value="maior_preco">Maior preço</option>
+    <option value="menor_facilidadeDeCriacao">Mais fácil de cultivar</option>
+    <option value="maior_facilidadeDeCriacao">Mais difícil de cultivar</option>
+  </select>
 
-      <select data-testid="selecionar-filtro" id="tipo">
-        <option value="default"></option>
-        <option value="altura">Altura</option>
-        <option value="preco">Preço</option>
-        <option value="facilidadeDeCriacao">Facilidade de criação</option>
-      </select>
-
-      <label for="name">e</label>
-      <select data-testid="selecionar-ordenar" id="name">
-        <option value="default"></option>
-        <option value="asc">Crescente</option>
-        <option value="desc">Decrescente</option>
-      </select>
+  <label for="select__filter">Filtrar por: </label>
+  <select name="select__filter" id="select__filter">
+    <option value="facilidadeCriacao">Facilidade de criação</option>
+    <option value="capturaPresas">Captura de presas</option>
+    <option value="tempoDeVida">Tempo de vida</option>
+  </select>
 
 
-      <button data-testid="botao-limpar" id="botao-limpar">Limpar</button>
+  <button data-testid="botao-limpar" id="botao-limpar">Limpar</button>
 
-      <ul id="plant__list">
-      </ul>
+  <main id="root">
 
-    </main>
-    <img src="./assets/logo.jpg" id="logo__footer">
-    <footer>Bem vindo ao Mundo das Plantas Carnívoras ♥</footer><br>
+  </main>
+  <img src="./assets/logo.jpg" id="logo__footer">
+  <footer>Mundo das Plantas Carnívoras ♥</footer><br>
 
-    <script src="main.js" type="module"></script>
+  <script src="main.js" type="module"></script>
+
+
 
 </body>
 
