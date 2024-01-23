@@ -9,7 +9,9 @@ export default [
     "facts": {
       "alturaPlanta": "30cm",
       "precoPlanta": 5,
-      "facilidadeCriacao": "Fácil"
+      "facilidadeCriacao": "Fácil",
+      "capturaPresas": "Semiativa",
+      "tempoDeVida": "2 anos"
     }
   },
   {
@@ -22,7 +24,9 @@ export default [
     "facts": {
       "alturaPlanta": "15cm",
       "precoPlanta": 6,
-      "facilidadeCriacao": "Fácil"
+      "facilidadeCriacao": "Fácil",
+      "capturaPresas": "Ativa",
+      "tempoDeVida": "3 anos"
     }
   },
   {
@@ -35,8 +39,9 @@ export default [
     "facts": {
       "alturaPlanta": "45cm",
       "precoPlanta": 9,
-      "facilidadeCriacao": "Fácil"
-
+      "facilidadeCriacao": "Fácil",
+      "capturaPresas": "Ativa",
+      "tempoDeVida": "5 anos"
     }
   },
   {
@@ -47,9 +52,11 @@ export default [
     "imageUrl": "https://www.carnivorousplants.org/sites/default/files/images/GrowingGuides/DarlingtoniaPond.jpg ",
     "imageUrl2": "https://i.pinimg.com/originals/f9/19/33/f9193376b1cbe985508cf9df27dfa274.jpg ",
     "facts": {
-      "alturaPanta": "20cm",
+      "alturaPlanta": "20cm",
       "precoPlanta": 6.9,
-      "facilidadeCriacao": "Moderado"
+      "facilidadeCriacao": "Moderado",
+      "capturaPresas": "Semiativa",
+      "tempoDeVida": "10 anos"
     }
   },
   {
@@ -62,7 +69,9 @@ export default [
     "facts": {
       "alturaPlanta": "25cm",
       "precoPlanta": 6,
-      "facilidadeCriacao": "Moderado"
+      "facilidadeCriacao": "Moderado",
+      "capturaPresas": "Ativa",
+      "tempoDeVida": "2 anos"
     }
   },
   {
@@ -75,7 +84,9 @@ export default [
     "facts": {
       "alturaPlanta": "43cm",
       "precoPlanta": 8.6,
-      "facilidadeCriacao": "Difil"
+      "facilidadeCriacao": "Difil",
+      "capturaPresas": "Ativa",
+      "tempoDeVida": "3 anos"
 
     }
   },
@@ -89,7 +100,9 @@ export default [
     "facts": {
       "alturaPlanta": "15cm",
       "precoPlanta": 4.5,
-      "facilidadeCriacao": "Fácil"
+      "facilidadeCriacao": "Fácil",
+      "capturaPresas": "Ativa",
+      "tempoDeVida": "5 anos"
     }
   },
   {
@@ -102,7 +115,9 @@ export default [
     "facts": {
       "alturaPlanta": "30cm",
       "precoPlanta": 5,
-      "facilidadeCriacao": "Fácil"
+      "facilidadeCriacao": "Fácil",
+      "capturaPresas": "Passiva",
+      "tempoDeVida": "10 anos"
     }
   },
   {
@@ -115,7 +130,9 @@ export default [
     "facts": {
       "alturaPlanta": "80cm",
       "precoPlanta": 10,
-      "facilidadeCriacao": "Moderado"
+      "facilidadeCriacao": "Moderado",
+      "capturaPresas": "Ativa",
+      "tempoDeVida": "2 anos"
     }
   },
   {
@@ -128,7 +145,9 @@ export default [
     "facts": {
       "alturaPlanta": "75cm",
       "precoPlanta": 7.5,
-      "facilidadeCriacao": "Fácil"
+      "facilidadeCriacao": "Fácil",
+      "capturaPresas": "Passivas",
+      "tempoDeVida": "5 anos"
     }
   },
   {
@@ -141,7 +160,9 @@ export default [
     "facts": {
       "alturaPlanta": "78cm",
       "precoPlanta": 9.5,
-      "facilidadeCriacao": "Moderado"
+      "facilidadeCriacao": "Moderado",
+      "capturaPresas": "Semiativa",
+      "tempoDeVida": "10 anos"
     }
   },
   {
@@ -154,7 +175,9 @@ export default [
     "facts": {
       "alturaPlanta": "20cm",
       "precoPlanta": 3.5,
-      "facilidadeCriacao": "Moderado"
+      "facilidadeCriacao": "Moderado",
+      "capturaPresas": "Ativa",
+      "tempoDeVida": "10 anos"
     }
   },
   {
@@ -167,7 +190,9 @@ export default [
     "facts": {
       "alturaPlanta": "20cm",
       "precoPlanta": 3.0,
-      "facilidadeCriacao": "Fácil"
+      "facilidadeCriacao": "Fácil",
+      "capturaPresas": "Passiva",
+      "tempoDeVida": "2 anos"
     }
   },
   {
@@ -180,7 +205,9 @@ export default [
     "facts": {
       "alturaPlanta": "20cm",
       "precoPlanta": 2,
-      "facilidadeCriacao": "Moderado"
+      "facilidadeCriacao": "Moderado",
+      "capturaPresas": "Passiva",
+      "tempoDeVida": "5 anos"
     }
   },
   {
@@ -193,7 +220,9 @@ export default [
     "facts": {
       "alturaPlanta": "1.45cm",
       "precoPlanta": 40,
-      "facilidadeCriacao": "Moderado"
+      "facilidadeCriacao": "Moderado",
+      "capturaPresas": "Ativas",
+      "tempoDeVida": "3 anos"
     }
   },
   {
@@ -206,7 +235,9 @@ export default [
     "facts": {
       "alturaPlanta": "1m",
       "precoPlanta": 25,
-      "facilidadeCriacao": "Moderado"
+      "facilidadeCriacao": "Moderado",
+      "capturaPresas": "Semiativa",
+      "tempoDeVida": "10 anos"
     }
   },
   {
@@ -219,7 +250,9 @@ export default [
     "facts": {
       "alturaPlanta": "60cm",
       "precoPlanta": 60,
-      "facilidadeCriacao": "Moderado"
+      "facilidadeCriacao": "Moderado",
+      "capturaPresas": "Passiva",
+      "tempoDeVida": "10 anos"
     }
   },
   {
@@ -232,7 +265,9 @@ export default [
     "facts": {
       "alturaPlanta": "1.30cm",
       "precoPlanta": 35,
-      "facilidadeCriacao": "Moderado"
+      "facilidadeCriacao": "Moderado",
+      "capturaPresas": "Ativa",
+      "tempoDeVida": "5 anos"
     }
   },
   {
@@ -245,7 +280,9 @@ export default [
     "facts": {
       "alturaPlanta": "90cm",
       "precoPlanta": 38,
-      "facilidadeCriacao": "Moderado"
+      "facilidadeCriacao": "Moderado",
+      "capturaPresas": "Passiva",
+      "tempoDeVida": "3 anos"
     }
   },
   {
@@ -258,7 +295,9 @@ export default [
     "facts": {
       "alturaPlanta": "1.20cm",
       "precoPlanta": 29,
-      "facilidadeCriacao": "Moderado"
+      "facilidadeCriacao": "Moderado",
+      "capturaPresas": "Semiativas",
+      "tempoDeVida": "10 anos"
     }
   },
   {
@@ -271,7 +310,9 @@ export default [
     "facts": {
       "alturaPlanta": "60cm",
       "precoPlanta": 44,
-      "facilidadeCriacao": "Difícil"
+      "facilidadeCriacao": "Difícil",
+      "capturaPresas": "Ativa",
+      "tempoDeVida": "2 anos"
     }
   },
   {
@@ -284,7 +325,9 @@ export default [
     "facts": {
       "alturaPlanta": "90cm",
       "precoPlanta": 33,
-      "facilidadeCriacao": "Moderado"
+      "facilidadeCriacao": "Moderado",
+      "capturaPresas": "Passiva",
+      "tempoDeVida": "3 anos"
     }
   },
   {
@@ -297,7 +340,9 @@ export default [
     "facts": {
       "alturaPlanta": "30cm",
       "precoPlanta": 42,
-      "facilidadeCriacao": "Fácil"
+      "facilidadeCriacao": "Fácil",
+      "capturaPresas": "Passiva",
+      "tempoDeVida": "5 anos"
     }
   },
   {
@@ -310,7 +355,9 @@ export default [
     "facts": {
       "alturaPlanta": "3m",
       "precoPlanta": 99,
-      "facilidadeCriacao": "Dífil"
+      "facilidadeCriacao": "Dífil",
+      "capturaPresas": "Ativa",
+      "tempoDeVida": "10 anos"
     }
   },
 ]
