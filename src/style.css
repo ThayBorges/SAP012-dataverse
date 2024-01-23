@@ -1,5 +1,5 @@
 * {
-  background: url("./assets/img_opac.jpeg");
+  background: url("./assets/fundo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -50,6 +50,7 @@ header {
   max-width: 25%;
   padding: 16px;
   border: 3px solid gray;
+  border-radius: 10px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
