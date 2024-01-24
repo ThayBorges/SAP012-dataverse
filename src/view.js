@@ -9,7 +9,7 @@ export const renderItems = (data) => {
           <div class="plant__content">
             <img src="${data[i].imageUrl}" class="plant__img">
             <p><strong>${data[i].name}</strong></p>
-            <p class="plant__description">${data[i].description}</p>
+            <p class="plant__description">${data[i].shortDescription}</p>
             <p>Altura: ${data[i].facts.alturaPlanta}</p>
             <p>Preço: R$ ${data[i].facts.precoPlanta.toFixed(2)}</p>
             <p>Tempo de vida: ${data[i].facts.tempoDeVida}</p>
@@ -22,31 +22,49 @@ export const renderItems = (data) => {
   return `<ul id="plant__list">${blocoItems}</ul>`;
 };
 
-export const selectFilter = (data, filterBy) => {
-  let select = ""
-  buildFilterList(data, filterBy).forEach(item => {
-    select += `
-     <
-      `
-  });
+export const renderFilter = (filter) => {
+
+  let blocoFilter = ""
+
+  if (filter === "tempoDeVida") {
+    blocoFilter = `
+    <option value="2">2 anos</option>
+    <option value="3">3 anos</option>
+    <option value="5">5 anos</option>
+    <option value="10">10 anos</option>
+    `
+  }else {
+    blocoFilter = `
+    <option value="fácil">Fácil</option>
+    <option value="moderado">Moderado</option>
+    <option value="difícil">Difícil</option>
+    `
+  }
+  return blocoFilter
 };
 
-function buildFilterList(data, filterBy){
-  //new estou criando e set pra não repetir o item da lista
-  //eslint-disable-next-line no-undef
-  const listFilter = new Set();
 
-  data.forEach(plant => {
-    if("facilidadeCriacao" === filterBy) {
-      listFilter.add(plant.facilidadeCriacao)
-    }else if("capturaPresas" === filterBy) {
-      listFilter.add(plant.capturaPresas)
-    }else {
-      listFilter.add(plant.tempoDeVida)
-    }
-  });
-  return listFilter;
-}
+
+
+
+
+
+// function buildFilterList(data, filterBy){
+//   //new estou criando e set pra não repetir o item da lista
+//   //eslint-disable-next-line no-undef
+//   const listFilter = new Set();
+
+//   data.forEach(plant => {
+//     if("facilidadeCriacao" === filterBy) {
+//       listFilter.add(plant.facilidadeCriacao)
+//     }else if("capturaPresas" === filterBy) {
+//       listFilter.add(plant.capturaPresas)
+//     }else {
+//       listFilter.add(plant.tempoDeVida)
+//     }
+//   });
+//   return listFilter;
+// }
 // $ é interpolação
 // variáveis precisam ser inseridas com um sifrão ($) e entre chaves ({nome})
 // string entre crases (`)

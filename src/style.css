@@ -4,6 +4,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  list-style-type: none;
 }
 
 #logo {
@@ -35,16 +36,25 @@ header {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+ul {
+  font-size: small;
+  text-align: center;
+  text-align: justify;
+  padding: 60px;
+}
+
+h3 {
+  color: rgb(30, 102, 9);
+}
+
 #plant__list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  list-style-type: none;
   text-align: center;
 }
 
 .plant__item {
-  list-style-type: none;
   margin: 1rem;
   width: 20%;
   max-width: 25%;
