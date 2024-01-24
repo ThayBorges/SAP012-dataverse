@@ -45,6 +45,9 @@ ul {
 
 h3 {
   color: rgb(30, 102, 9);
+  flex-wrap: wrap;
+  padding: 2px;
+  border-color: 3px solid red;
 }
 
 #plant__list {

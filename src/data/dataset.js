@@ -7,7 +7,7 @@ export default [
     "imageUrl": "https://images.tcdn.com.br/img/img_prod/1061386/planta_carnivora_dionaea_muscipula_g3_x_g14_25_1_15e66452c7b491d3fbc1d5acc68669c6.jpg ",
     "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Venus_Flytrap_showing_trigger_hairs.jpg/266px-Venus_Flytrap_showing_trigger_hairs.jpg ",
     "facts": {
-      "alturaPlanta": "30cm",
+      "alturaPlanta": 30,
       "precoPlanta": 5,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Semiativa",
@@ -22,7 +22,7 @@ export default [
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Nepenthes_merrilliana_young_plant.jpg ",
     "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Nepenthes_merrilliana_terrestrial_pitcher.jpg/301px-Nepenthes_merrilliana_terrestrial_pitcher.jpg ",
     "facts": {
-      "alturaPlanta": "15cm",
+      "alturaPlanta": 15,
       "precoPlanta": 6,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Ativa",
@@ -37,7 +37,7 @@ export default [
     "imageUrl": "https://cdn.awsli.com.br/1539/1539472/produto/122616580/2c8f176eef.jpg ",
     "imageUrl2": "https://i.pinimg.com/1200x/c5/41/43/c54143791d93fcb0692bf2344e51e4d5.jpg  ",
     "facts": {
-      "alturaPlanta": "45cm",
+      "alturaPlanta": 45,
       "precoPlanta": 9,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Ativa",
@@ -52,7 +52,7 @@ export default [
     "imageUrl": "https://www.carnivorousplants.org/sites/default/files/images/GrowingGuides/DarlingtoniaPond.jpg ",
     "imageUrl2": "https://i.pinimg.com/originals/f9/19/33/f9193376b1cbe985508cf9df27dfa274.jpg ",
     "facts": {
-      "alturaPlanta": "20cm",
+      "alturaPlanta": 20,
       "precoPlanta": 6.9,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Semiativa",
@@ -67,7 +67,7 @@ export default [
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/AldrovandaVesiculosaHabit.jpg ",
     "imageUrl2": "https://carnivorousplantresource.com/wp-content/uploads/2017/02/Aldrovanda-vesiculosa-trap.jpg ",
     "facts": {
-      "alturaPlanta": "25cm",
+      "alturaPlanta": 25,
       "precoPlanta": 6,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Ativa",
@@ -82,7 +82,7 @@ export default [
     "imageUrl": "https://m.media-amazon.com/images/I/516sQMw2XnL._AC_UF894,1000_QL80_.jpg ",
     "imageUrl2": "https://bugwoodcloud.org/images/768x512/5562454.jpg ",
     "facts": {
-      "alturaPlanta": "43cm",
+      "alturaPlanta": 43,
       "precoPlanta": 8.6,
       "facilidadeCriacao": "Díficil",
       "capturaPresas": "Ativa",
@@ -98,7 +98,7 @@ export default [
     "imageUrl": "https://i.pinimg.com/474x/3e/8b/b7/3e8bb73d4e99b56c49fbf10c43f790ad.jpg ",
     "imageUr2l": "https://i.pinimg.com/736x/d0/02/e3/d002e32d0d8d1ca21e75f1e63a01cfd5.jpg ",
     "facts": {
-      "alturaPlanta": "15cm",
+      "alturaPlanta": 15,
       "precoPlanta": 4.5,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Ativa",
@@ -113,7 +113,7 @@ export default [
     "imageUrl": "https://www.floresefolhagens.com.br/wp-content/uploads/2021/07/pinguicula-plantas-carnivoras-1-3.jpg ",
     "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Pinguicula_moranensis.jpg/1200px-Pinguicula_moranensis.jpg ",
     "facts": {
-      "alturaPlanta": "30cm",
+      "alturaPlanta": 30,
       "precoPlanta": 5,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Passiva",
@@ -128,7 +128,7 @@ export default [
     "imageUrl": "https://as1.ftcdn.net/v2/jpg/04/72/97/28/1000_F_472972859_mE7iXWMCToBUgtuA4tDA06qiX9xD8oyg.jpg ",
     "imageUrl2": "https://i.pinimg.com/736x/b2/1a/be/b21abee2cacae565897db5830505fe35.jpg ",
     "facts": {
-      "alturaPlanta": "80cm",
+      "alturaPlanta": 80,
       "precoPlanta": 10,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Ativa",
@@ -143,7 +143,7 @@ export default [
     "imageUrl": "https://files.ekmcdn.com/hampshirecarni/images/cf001-cephalotus-follicularis-medium-1585-p.jpeg  ",
     "imageUrl2": "https://curiousplant.com/wp-content/uploads/2019/03/cephalotus-follicularis-7.jpg ",
     "facts": {
-      "alturaPlanta": "75cm",
+      "alturaPlanta": 75,
       "precoPlanta": 7.5,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Passivas",
@@ -158,7 +158,7 @@ export default [
     "imageUrl": "https://newfs.s3.amazonaws.com/taxon-images-1000s1000/Lentibulariaceae/utricularia-cornuta-fl-ahaines-b.jpg ",
     "imageUrl2": "https://as1.ftcdn.net/v2/jpg/03/85/81/64/1000_F_385816489_4JISa3f7G1OBZ35oqY81bql8DMGii72c.jpg ",
     "facts": {
-      "alturaPlanta": "78cm",
+      "alturaPlanta": 78,
       "precoPlanta": 9.5,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Semiativa",
@@ -173,7 +173,7 @@ export default [
     "imageUrl": "https://seedsandall.co.za/wp-content/uploads/2023/06/Genlisea-hispidula1.jpg ",
     "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Genlisea_violacea_giant.jpg ",
     "facts": {
-      "alturaPlanta": "20cm",
+      "alturaPlanta": 20,
       "precoPlanta": 3.5,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Ativa",
@@ -188,7 +188,7 @@ export default [
     "imageUrl": "https://www.floresefolhagens.com.br/wp-content/uploads/2021/06/drosophyllum-plantas-carnivoras-1-3.jpg ",
     "imageUrl2": "https://flora-on.pt/Drosophyllum-lusitanicum_ori_qgiV.jpg ",
     "facts": {
-      "alturaPlanta": "20cm",
+      "alturaPlanta": 20,
       "precoPlanta": 3.0,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Passiva",
@@ -203,7 +203,7 @@ export default [
     "imageUrl": "https://apps.lucidcentral.org/plants_se_nsw/images/entities/utricularia_dichotoma/utricularia_dichotoma_apii_colin_totterdell_long_gully_road.jpg ",
     "imageUrl2": "https://apps.lucidcentral.org/plants_se_nsw/images/entities/utricularia_dichotoma/utricularia_dichotoma_c435.jpg ",
     "facts": {
-      "alturaPlanta": "20cm",
+      "alturaPlanta": 20,
       "precoPlanta": 2,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Passiva",
@@ -218,7 +218,7 @@ export default [
     "imageUrl": "https://cdn.awsli.com.br/2500x2500/441/441644/produto/231249009/f9c369bed33f67c75674620680a0736b-rzwogcnart.jpg ",
     "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/e/ea/H_chimantensis2.jpg ",
     "facts": {
-      "alturaPlanta": "1.45cm",
+      "alturaPlanta": 145,
       "precoPlanta": 40,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Ativas",
@@ -233,7 +233,7 @@ export default [
     "imageUrl": "https://www.floresefolhagens.com.br/wp-content/uploads/2021/06/byblis-plantas-carnivoras-.jpg ",
     "imageUrl2": "https://www.fierceflora.com/wp-content/uploads/2022/11/20221004-Byblis-gigantea-5.jpg ",
     "facts": {
-      "alturaPlanta": "1m",
+      "alturaPlanta": 100,
       "precoPlanta": 25,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Semiativa",
@@ -248,7 +248,7 @@ export default [
     "imageUrl": "https://curiousplant.com/wp-content/uploads/2022/03/brocchinia-reducta-6.jpg ",
     "imageUrl2": "https://30fab8c749.cbaul-cdnwnd.com/1e0037654cece5ba153a87293c60dfe4/200000321-8495d858fc/Brocchinia%20Reducta.jpg ",
     "facts": {
-      "alturaPlanta": "60cm",
+      "alturaPlanta": 60,
       "precoPlanta": 60,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Passiva",
@@ -263,7 +263,7 @@ export default [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1627982/large.jpg ",
     "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Catopsis_berteroniana_1586219.jpg/1200px-Catopsis_berteroniana_1586219.jpg ",
     "facts": {
-      "alturaPlanta": "1.30cm",
+      "alturaPlanta": 130,
       "precoPlanta": 35,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Ativa",
@@ -278,7 +278,7 @@ export default [
     "imageUrl": "https://scitechdaily.com/images/Carnivorous-Leaf.jpg ",
     "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/4/45/Triphyophyllum_peltatum.jpg ",
     "facts": {
-      "alturaPlanta": "90cm",
+      "alturaPlanta": 90,
       "precoPlanta": 38,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Passiva",
@@ -293,7 +293,7 @@ export default [
     "imageUrl": "https://curiousplant.com/wp-content/uploads/2020/03/roridula-gorgonias-11.jpg ",
     "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Roridula_gorgonias_Rebelo_2.jpg ",
     "facts": {
-      "alturaPlanta": "1.20cm",
+      "alturaPlanta": 120,
       "precoPlanta": 29,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Semiativas",
@@ -308,7 +308,7 @@ export default [
     "imageUrl": "https://s3.amazonaws.com/eit-planttoolbox-prod/media/images/Sarracenia-psittacina--Eleanor--CC-BY-NC.jpg ",
     "imageUrl2": "https://inaturalist-open-data.s3.amazonaws.com/photos/162016310/original.jpg ",
     "facts": {
-      "alturaPlanta": "60cm",
+      "alturaPlanta": 60,
       "precoPlanta": 44,
       "facilidadeCriacao": "Difícil",
       "capturaPresas": "Ativa",
@@ -323,7 +323,7 @@ export default [
     "imageUrl": "https://curiousplant.com/wp-content/uploads/2020/03/sarracenia-oreophila-4.jpg ",
     "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sarracenia_%28oreophila_x_purpurea%29_x_flava_%286080793103%29.jpg ",
     "facts": {
-      "alturaPlanta": "90cm",
+      "alturaPlanta": 90,
       "precoPlanta": 33,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Passiva",
@@ -338,7 +338,7 @@ export default [
     "imageUrl": "https://bergenwatergardens.com/wp-content/uploads/2023/11/BE-4045g-juvenile-pitcher-of-one-clone.jpg ",
     "imageUrl2": "https://i.pinimg.com/736x/e4/f0/35/e4f03534c2bd8eb9bf9227bdd03a7e43.jpg ",
     "facts": {
-      "alturaPlanta": "30cm",
+      "alturaPlanta": 30,
       "precoPlanta": 42,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Passiva",
@@ -353,7 +353,7 @@ export default [
     "imageUrl": "https://live.staticflickr.com/3889/14389337225_acc18029b0_b.jpg ",
     "imageUrl2": "https://live.staticflickr.com/3912/14409508853_869294a7ba_b.jpg ",
     "facts": {
-      "alturaPlanta": "3m",
+      "alturaPlanta": 300,
       "precoPlanta": 99,
       "facilidadeCriacao": "Díficil",
       "capturaPresas": "Ativa",

@@ -10,9 +10,9 @@ export const renderItems = (data) => {
             <img src="${data[i].imageUrl}" class="plant__img">
             <p><strong>${data[i].name}</strong></p>
             <p class="plant__description">${data[i].shortDescription}</p>
-            <p>Altura: ${data[i].facts.alturaPlanta}</p>
+            <p>Altura em cm: ${data[i].facts.alturaPlanta}</p>
             <p>Preço: R$ ${data[i].facts.precoPlanta.toFixed(2)}</p>
-            <p>Tempo de vida: ${data[i].facts.tempoDeVida}</p>
+            <p>Tempo de vida em anos: ${data[i].facts.tempoDeVida}</p>
             <p>Facilidade de Criação: ${data[i].facts.facilidadeCriacao}</p>
             <p>Tipo de captura das presas: ${data[i].facts.capturaPresas}</p>
           </div>
