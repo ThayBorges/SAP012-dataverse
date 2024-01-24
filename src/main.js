@@ -1,13 +1,22 @@
-import {renderItems, selectFilter} from './view.js';
+import { renderItems, renderFilter } from './view.js';
 import data from './data/dataset.js';
+import sortBy from './dataFunctions.js';
 
 const root = document.getElementById("root")
 root.innerHTML = renderItems(data);
 
-
-const selectNome = document.querySelector("[name='selecionar__filtro']")
-const button = document.getElementById("botao-limpar");
-button.addEventListener('click', function () {
-  selectNome.value = "default"
+const selectSubFilter = document.getElementById("select__subFilter");
+const selectFilter = document.getElementById("select__filter");
+selectSubFilter.innerHTML = renderFilter(selectFilter.value)
+selectFilter.addEventListener('change', function () {
+  selectSubFilter.innerHTML = renderFilter(selectFilter.value)
 });
 
+const button = document.getElementById("botao-buscar");
+button.addEventListener('click', function () {
+  const itemSelecionado = document.getElementById("select__ordering").value
+  const ordernacao = document.querySelector('input[name="ordering"]:checked').value;
+
+  const meuDataSetOrdenado = sortBy(data, itemSelecionado, ordernacao)
+  root.innerHTML = renderItems(meuDataSetOrdenado);
+});

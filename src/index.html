@@ -20,25 +20,31 @@
 
   <h2>Tipos de Plantas</h2>
 
-  <label for="select__ordering">Classificar por: </label>
+  <label for="select__ordering">Ordenar por: </label>
   <select name="select__ordering" id="select__ordering">
-    <option value="menor_altura">Menor altura</option>
-    <option value="maior_altura">Maior altura</option>
-    <option value="menor_preco">Menor preço</option>
-    <option value="maior_preco">Maior preço</option>
-    <option value="menor_facilidadeDeCriacao">Mais fácil de cultivar</option>
-    <option value="maior_facilidadeDeCriacao">Mais difícil de cultivar</option>
+    <option value="altura">Altura</option>
+    <option value="preco">Preço</option>
+    <option value="facilidadeCriacao">Facilidade de criação</option>
+    <option value="capturaPresas">Captura de presas</option>
   </select>
+
+  <input type="radio" id="asc" value="asc" name="ordering" checked />
+  <label for="asc">Crescente</label>
+  <input type="radio" id="desc" value="desc" name="ordering" />
+  <label for="desc">Decrescente</label><br>
 
   <label for="select__filter">Filtrar por: </label>
   <select name="select__filter" id="select__filter">
     <option value="facilidadeCriacao">Facilidade de criação</option>
-    <option value="capturaPresas">Captura de presas</option>
     <option value="tempoDeVida">Tempo de vida</option>
   </select>
 
+  <label for="select__subFilter"> e </label>
+  <select name="select__subFilter" id="select__subFilter">
 
-  <button data-testid="botao-limpar" id="botao-limpar">Limpar</button>
+  </select>
+
+  <button data-testid="botao-buscar" id="botao-buscar">Buscar</button>
 
   <main id="root">
 
