@@ -18,33 +18,49 @@
     <p>Descubra a fascinante beleza e peculiaridade dessas plantas incríveis.</p>
   </header>
 
+<div id="curiosidade">
+  <ul>
+    <h3>Curiosidades</h3>
+    <li>O tempo médio de vida de uma planta carnivora é: </li>
+    <li>O que as plantas carnívoras comem?</li>
+    <li>As plantas carnívoras atraem, capturam e digerem animais de pequeno porte como insetos (moscas, abelhas,
+      vespas…), aracnídeos e até mesmo anfíbios, aves e répteis.</li>
+    <li>As plantas carnívoras podem ser classificadas também de acordo com o movimento que fazem para capturar as
+      presas.</li>
+    <li>Plantas carnívoras ativas: se movimentam para capturar as presas; Plantas carnívoras passivas: não se movimentam
+      para capturar as presas; Plantas carnívoras semiativas: fazem algum movimento após a captura para aumentar a área
+      de contato com a presa, o que permite absorver melhor os nutrientes.</li>
+  </ul>
+</div>
+
   <h2>Tipos de Plantas</h2>
+  <div>
+    <label for="select__ordering">Ordenar por: </label>
+    <select name="select__ordering" id="select__ordering">
+      <option value="altura">Altura</option>
+      <option value="preco">Preço</option>
+      <option value="facilidadeCriacao">Facilidade de criação</option>
+      <option value="capturaPresas">Captura de presas</option>
+    </select>
 
-  <label for="select__ordering">Ordenar por: </label>
-  <select name="select__ordering" id="select__ordering">
-    <option value="altura">Altura</option>
-    <option value="preco">Preço</option>
-    <option value="facilidadeCriacao">Facilidade de criação</option>
-    <option value="capturaPresas">Captura de presas</option>
-  </select>
+    <input type="radio" id="asc" value="asc" name="ordering" checked />
+    <label for="asc">Crescente</label>
+    <input type="radio" id="desc" value="desc" name="ordering" />
+    <label for="desc">Decrescente</label><br>
 
-  <input type="radio" id="asc" value="asc" name="ordering" checked />
-  <label for="asc">Crescente</label>
-  <input type="radio" id="desc" value="desc" name="ordering" />
-  <label for="desc">Decrescente</label><br>
+    <label for="select__filter">Filtrar por: </label>
+    <select name="select__filter" id="select__filter">
+      <option value="facilidadeCriacao">Facilidade de criação</option>
+      <option value="tempoDeVida">Tempo de vida</option>
+    </select>
 
-  <label for="select__filter">Filtrar por: </label>
-  <select name="select__filter" id="select__filter">
-    <option value="facilidadeCriacao">Facilidade de criação</option>
-    <option value="tempoDeVida">Tempo de vida</option>
-  </select>
+    <label for="select__subFilter"> e </label>
+    <select name="select__subFilter" id="select__subFilter">
 
-  <label for="select__subFilter"> e </label>
-  <select name="select__subFilter" id="select__subFilter">
+    </select>
 
-  </select>
-
-  <button data-testid="botao-buscar" id="botao-buscar">Buscar</button>
+    <button data-testid="botao-buscar" id="botao-buscar">Buscar</button>
+  </div>
 
   <main id="root">
 
