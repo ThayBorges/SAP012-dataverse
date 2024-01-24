@@ -11,7 +11,7 @@ export default [
       "precoPlanta": 5,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Semiativa",
-      "tempoDeVida": "2 anos"
+      "tempoDeVida": 2
     }
   },
   {
@@ -26,7 +26,7 @@ export default [
       "precoPlanta": 6,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Ativa",
-      "tempoDeVida": "3 anos"
+      "tempoDeVida": 3
     }
   },
   {
@@ -41,7 +41,7 @@ export default [
       "precoPlanta": 9,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Ativa",
-      "tempoDeVida": "5 anos"
+      "tempoDeVida": 5
     }
   },
   {
@@ -56,7 +56,7 @@ export default [
       "precoPlanta": 6.9,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Semiativa",
-      "tempoDeVida": "10 anos"
+      "tempoDeVida": 10
     }
   },
   {
@@ -71,7 +71,7 @@ export default [
       "precoPlanta": 6,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Ativa",
-      "tempoDeVida": "2 anos"
+      "tempoDeVida": 2
     }
   },
   {
@@ -84,9 +84,9 @@ export default [
     "facts": {
       "alturaPlanta": "43cm",
       "precoPlanta": 8.6,
-      "facilidadeCriacao": "Difil",
+      "facilidadeCriacao": "Díficil",
       "capturaPresas": "Ativa",
-      "tempoDeVida": "3 anos"
+      "tempoDeVida": 3
 
     }
   },
@@ -102,7 +102,7 @@ export default [
       "precoPlanta": 4.5,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Ativa",
-      "tempoDeVida": "5 anos"
+      "tempoDeVida": 5
     }
   },
   {
@@ -117,7 +117,7 @@ export default [
       "precoPlanta": 5,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Passiva",
-      "tempoDeVida": "10 anos"
+      "tempoDeVida": 10
     }
   },
   {
@@ -132,7 +132,7 @@ export default [
       "precoPlanta": 10,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Ativa",
-      "tempoDeVida": "2 anos"
+      "tempoDeVida": 2
     }
   },
   {
@@ -147,7 +147,7 @@ export default [
       "precoPlanta": 7.5,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Passivas",
-      "tempoDeVida": "5 anos"
+      "tempoDeVida": 5
     }
   },
   {
@@ -162,7 +162,7 @@ export default [
       "precoPlanta": 9.5,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Semiativa",
-      "tempoDeVida": "10 anos"
+      "tempoDeVida": 10
     }
   },
   {
@@ -177,7 +177,7 @@ export default [
       "precoPlanta": 3.5,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Ativa",
-      "tempoDeVida": "10 anos"
+      "tempoDeVida": 10
     }
   },
   {
@@ -192,7 +192,7 @@ export default [
       "precoPlanta": 3.0,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Passiva",
-      "tempoDeVida": "2 anos"
+      "tempoDeVida": 2
     }
   },
   {
@@ -207,7 +207,7 @@ export default [
       "precoPlanta": 2,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Passiva",
-      "tempoDeVida": "5 anos"
+      "tempoDeVida": 5
     }
   },
   {
@@ -222,7 +222,7 @@ export default [
       "precoPlanta": 40,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Ativas",
-      "tempoDeVida": "3 anos"
+      "tempoDeVida": 3
     }
   },
   {
@@ -237,7 +237,7 @@ export default [
       "precoPlanta": 25,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Semiativa",
-      "tempoDeVida": "10 anos"
+      "tempoDeVida": 10
     }
   },
   {
@@ -252,7 +252,7 @@ export default [
       "precoPlanta": 60,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Passiva",
-      "tempoDeVida": "10 anos"
+      "tempoDeVida": 10
     }
   },
   {
@@ -267,7 +267,7 @@ export default [
       "precoPlanta": 35,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Ativa",
-      "tempoDeVida": "5 anos"
+      "tempoDeVida": 5
     }
   },
   {
@@ -282,7 +282,7 @@ export default [
       "precoPlanta": 38,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Passiva",
-      "tempoDeVida": "3 anos"
+      "tempoDeVida": 3
     }
   },
   {
@@ -297,7 +297,7 @@ export default [
       "precoPlanta": 29,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Semiativas",
-      "tempoDeVida": "10 anos"
+      "tempoDeVida": 10
     }
   },
   {
@@ -312,7 +312,7 @@ export default [
       "precoPlanta": 44,
       "facilidadeCriacao": "Difícil",
       "capturaPresas": "Ativa",
-      "tempoDeVida": "2 anos"
+      "tempoDeVida": 2
     }
   },
   {
@@ -327,7 +327,7 @@ export default [
       "precoPlanta": 33,
       "facilidadeCriacao": "Moderado",
       "capturaPresas": "Passiva",
-      "tempoDeVida": "3 anos"
+      "tempoDeVida": 3
     }
   },
   {
@@ -342,7 +342,7 @@ export default [
       "precoPlanta": 42,
       "facilidadeCriacao": "Fácil",
       "capturaPresas": "Passiva",
-      "tempoDeVida": "5 anos"
+      "tempoDeVida": 5
     }
   },
   {
@@ -355,9 +355,9 @@ export default [
     "facts": {
       "alturaPlanta": "3m",
       "precoPlanta": 99,
-      "facilidadeCriacao": "Dífil",
+      "facilidadeCriacao": "Díficil",
       "capturaPresas": "Ativa",
-      "tempoDeVida": "10 anos"
+      "tempoDeVida": 10
     }
   },
 ]
