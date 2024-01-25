@@ -84,7 +84,7 @@ export default [
     "facts": {
       "alturaPlanta": "43cm",
       "precoPlanta": 8.6,
-      "facilidadeCriacao": "Díficil",
+      "facilidadeCriacao": "Difícil",
       "capturaPresas": "Ativa",
       "tempoDeVida": 3
 
@@ -355,7 +355,7 @@ export default [
     "facts": {
       "alturaPlanta": "3m",
       "precoPlanta": 99,
-      "facilidadeCriacao": "Díficil",
+      "facilidadeCriacao": "Difícil",
       "capturaPresas": "Ativa",
       "tempoDeVida": 10
     }
