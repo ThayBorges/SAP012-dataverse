@@ -221,7 +221,7 @@ export const data = [
       "alturaPlanta": 145,
       "precoPlanta": 40,
       "facilidadeCriacao": "Moderado",
-      "capturaPresas": "Ativas",
+      "capturaPresas": "Ativa",
       "tempoDeVida": 3
     }
   },
@@ -296,7 +296,7 @@ export const data = [
       "alturaPlanta": 120,
       "precoPlanta": 29,
       "facilidadeCriacao": "Moderado",
-      "capturaPresas": "Semiativas",
+      "capturaPresas": "Semiativa",
       "tempoDeVida": 10
     }
   },
@@ -310,7 +310,7 @@ export const data = [
     "facts": {
       "alturaPlanta": 60,
       "precoPlanta": 44,
-      "facilidadeCriacao": "Difícil",
+      "facilidadeCriacao": "Díficil",
       "capturaPresas": "Ativa",
       "tempoDeVida": 2
     }
