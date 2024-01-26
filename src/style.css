@@ -36,18 +36,19 @@ header {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-ul {
+.introdution {
   font-size: small;
   text-align: center;
   text-align: justify;
-  padding: 60px;
+  padding: 5px 60px 5px 60px;
 }
 
 h3 {
   color: rgb(30, 102, 9);
   flex-wrap: wrap;
   padding: 2px;
-  border-color: 3px solid red;
+  width: 70%;
+
 }
 
 #plant__list {
@@ -61,7 +62,7 @@ h3 {
   margin: 1rem;
   width: 20%;
   max-width: 25%;
-  padding: 16px;
+  padding: 10px;
   border: 3px solid gray;
   border-radius: 10px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
