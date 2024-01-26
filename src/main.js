@@ -1,6 +1,7 @@
 import { renderItems, renderFilter } from './view.js';
 import data from './data/dataset.js';
-import sortBy from './dataFunctions.js';
+import { sortBy, filterBy } from './dataFunctions.js';
+
 
 const root = document.getElementById("root")
 root.innerHTML = renderItems(data);
@@ -14,9 +15,11 @@ selectFilter.addEventListener('change', function () {
 
 const button = document.getElementById("botao-buscar");
 button.addEventListener('click', function () {
-  const itemSelecionado = document.getElementById("select__ordering").value
-  const ordernacao = document.querySelector('input[name="ordering"]:checked').value;
+  const filtroSelecionado = document.getElementById("select__subFilter").value;
+  const ordenacaoSelecionada = document.getElementById("select__ordering").value;
+  const ordernacaoAscDesc = document.querySelector('input[name="ordering"]:checked').value;
 
-  const meuDataSetOrdenado = sortBy(data, itemSelecionado, ordernacao)
+  const meuDataSetFiltrado = filterBy(data, filtroSelecionado);
+  const meuDataSetOrdenado = sortBy(meuDataSetFiltrado, ordenacaoSelecionada, ordernacaoAscDesc);
   root.innerHTML = renderItems(meuDataSetOrdenado);
 });

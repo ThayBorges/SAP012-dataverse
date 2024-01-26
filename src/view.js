@@ -1,24 +1,22 @@
 export const renderItems = (data) => {
 
   let blocoItems = ""
-
-  for (let i = 0; i < data.length; i++) {
-
+  data.forEach(item => {
     blocoItems += `
         <li itemscope itemtype="plant__item" class="plant__item">
           <div class="plant__content">
-            <img src="${data[i].imageUrl}" class="plant__img">
-            <p><strong>${data[i].name}</strong></p>
-            <p class="plant__description">${data[i].shortDescription}</p>
-            <p>Altura em cm: ${data[i].facts.alturaPlanta}</p>
-            <p>Preço: R$ ${data[i].facts.precoPlanta.toFixed(2)}</p>
-            <p>Tempo de vida em anos: ${data[i].facts.tempoDeVida}</p>
-            <p>Facilidade de Criação: ${data[i].facts.facilidadeCriacao}</p>
-            <p>Tipo de captura das presas: ${data[i].facts.capturaPresas}</p>
+            <img src="${item.imageUrl}" class="plant__img">
+            <p><strong>${item.name}</strong></p>
+            <p class="plant__description">${item.shortDescription}</p>
+            <p>Altura em cm: ${item.facts.alturaPlanta}</p>
+            <p>Preço: R$ ${item.facts.precoPlanta.toFixed(2)}</p>
+            <p>Tempo de vida em anos: ${item.facts.tempoDeVida}</p>
+            <p>Facilidade de Criação: ${item.facts.facilidadeCriacao}</p>
+            <p>Tipo de captura das presas: ${item.facts.capturaPresas}</p>
           </div>
         </li>
   `
-  }
+  });
   return `<ul id="plant__list">${blocoItems}</ul>`;
 };
 
@@ -33,38 +31,23 @@ export const renderFilter = (filter) => {
     <option value="5">5 anos</option>
     <option value="10">10 anos</option>
     `
+  }else if (filter === "capturaPresas"){
+    blocoFilter =`
+    <option value="Ativa">Ativa</option>
+    <option value="Semiativa">Semiativa</option>
+    <option value="Passiva">Passiva</option>
+    `
   }else {
     blocoFilter = `
-    <option value="fácil">Fácil</option>
-    <option value="moderado">Moderado</option>
-    <option value="difícil">Difícil</option>
+    <option value="Fácil">Fácil</option>
+    <option value="Moderado">Moderado</option>
+    <option value="Díficil">Díficil</option>
     `
   }
   return blocoFilter
 };
 
 
-
-
-
-
-
-// function buildFilterList(data, filterBy){
-//   //new estou criando e set pra não repetir o item da lista
-//   //eslint-disable-next-line no-undef
-//   const listFilter = new Set();
-
-//   data.forEach(plant => {
-//     if("facilidadeCriacao" === filterBy) {
-//       listFilter.add(plant.facilidadeCriacao)
-//     }else if("capturaPresas" === filterBy) {
-//       listFilter.add(plant.capturaPresas)
-//     }else {
-//       listFilter.add(plant.tempoDeVida)
-//     }
-//   });
-//   return listFilter;
-// }
 // $ é interpolação
 // variáveis precisam ser inseridas com um sifrão ($) e entre chaves ({nome})
 // string entre crases (`)
