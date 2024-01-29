@@ -30,4 +30,24 @@ export const sortBy = (data, itemSelecionado, order) => {
   return data;
 };
 
+export const calculaMediaVida = (data) => {
+  const soma = data.reduce(
+    function (acumulador, item) {
+      return acumulador + item.facts.tempoDeVida
+    }, 0
+  );
+  const media = soma / data.length;
+  return media.toFixed(0)
+}
+
+export const calculaMediaAltura = (data) => {
+  const soma = data.reduce(
+    function (acumulador, item) {
+      return acumulador + item.facts.alturaPlanta
+    }, 0
+  );
+  const media = soma / data.length;
+  return media.toFixed(0)
+}
+
 export default sortBy
