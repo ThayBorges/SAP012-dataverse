@@ -1,3 +1,7 @@
+![html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 # PlantaCarnivoraApp
 
 ## Definição do Produto
@@ -46,3 +50,34 @@ Durante os testes de usabilidade, identificamos alguns problemas que precisam se
    - Algumas atividades educativas não foram compreendidas pelos usuários da primeira vez. Vamos revisar e aprimorar as instruções para garantir uma experiência de aprendizado mais eficaz.
 
 Estamos comprometidos em abordar esses problemas e garantir que o **Mundo das Plantas Carnívoras ♥** seja uma ferramenta educativa e envolvente para famílias interessadas em plantas carnívoras. Agradecemos por seus feedbacks e sugestões contínuas para melhorar a aplicação.
+
+
+## Referências
+
+Durante a construção do projeto, usamos algumas referências que nos auxiliaram na formação de dados para os facts do proejeto. Alguns dados são ficticios apenas para incrementar dados.
+
+1. **Site - Viva Decora**
+    - ![https://www.vivadecora.com.br/revista/plantas-carnivoras/]
+
+## Tecnologias utilizadas
+
+1. Html5
+2. Css
+3. JavaScript
+4. Git
+5. GitHub
+6. GitHub Pages
+7. Eslint
+8. Jest
+9. NodeJS
+10. Figma
+
+##  Deploy
+
+Fiz com que os sites sejam publicados (ou _deployed_) para que as usuárias da
+web possam acessá-los é algo comum em projetos de desenvolvimento de software.
+
+Neste projeto, usei o _Github Pages_ para implantar o site.
+
+O comando `npm run deploy` ajuda com essa tarefa e você também pode
+consultar a [documentação oficial](https://docs.github.com/pt/pages).
