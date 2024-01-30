@@ -28,7 +28,7 @@ export const renderItems = (data) => {
         </li>
   `
   });
-  return blocoItems;
+  return `<ul id="plant__list">${blocoItems} </ul>` ;
 };
 
 export const renderFilter = (filter) => {
