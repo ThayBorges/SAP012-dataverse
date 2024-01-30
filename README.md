@@ -51,6 +51,15 @@ Durante os testes de usabilidade, identificamos alguns problemas que precisam se
 
 Estamos comprometidos em abordar esses problemas e garantir que o **Mundo das Plantas Carnívoras ♥** seja uma ferramenta educativa e envolvente para famílias interessadas em plantas carnívoras. Agradecemos por seus feedbacks e sugestões contínuas para melhorar a aplicação.
 
+# Prompt usado
+
+1. **ChatGpt que fez a geração de dados**
+
+!<img width="1365" alt="Captura de Tela 2024-01-03 às 19 13 24" src="Captura de Tela 2024-01-22 às 14.07.15.png">
+
+2. **Bing para criar imagem**
+
+img width="1365" alt="Captura de Tela 2024-01-03 às 19 13 24"
 
 ## Referências
 
