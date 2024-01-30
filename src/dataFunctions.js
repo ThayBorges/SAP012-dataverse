@@ -11,7 +11,7 @@ export const filterBy = (data, filterValue) => {
 
 export const sortBy = (data, itemSelecionado, order) => {
   data.sort((a, b) => {
-    if (itemSelecionado === "altura" || itemSelecionado === "preco") {
+    if (itemSelecionado === "alturaPlanta" || itemSelecionado === "precoPlanta") {
 
       return a.facts[itemSelecionado] - b.facts[itemSelecionado];
     } else if (itemSelecionado === "name") {

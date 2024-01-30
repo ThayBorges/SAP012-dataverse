@@ -2,33 +2,38 @@ import { renderItems, renderFilter } from './view.js';
 import data from './data/dataset.js';
 import { sortBy, filterBy, calculaMediaVida, calculaMediaAltura } from './dataFunctions.js';
 
-
 const root = document.getElementById("root");
-const plants = document.createElement("ul");
-plants.setAttribute("class", "plant__list");
-root.appendChild(plants)
-plants.innerHTML = renderItems(data);
+root.innerHTML = renderItems(data);
+
+const footer = document.querySelector("footer");
+const body = footer.parentNode;
+const imgLogoFooter = document.createElement("img");
+imgLogoFooter.setAttribute("id", "logo__footer");
+imgLogoFooter.src = "/assets/logo.jpg";
+body.insertBefore(imgLogoFooter, footer)
 
 const selectSubFilter = document.getElementById("select__subFilter");
-const selectFilter = document.getElementById("select__filter");
+const selectFilter = document.getElementById("select-filter");
 selectSubFilter.innerHTML = renderFilter(selectFilter.value)
-selectFilter.addEventListener('change', function () {
-  selectSubFilter.innerHTML = renderFilter(selectFilter.value)
+selectFilter.addEventListener('change', function (event) {
+  selectSubFilter.innerHTML = renderFilter(event.target.value)
 });
 
 //Calcula a media de vida no span sobre elas
 const mediaVida = document.querySelector(".mediaVida");
-mediaVida.innerHTML = calculaMediaVida(data);
-
 //calcula a media altura no span sobre elas
 const mediaAltura = document.querySelector(".mediaAltura");
-mediaAltura.innerHTML = calculaMediaAltura(data);
+document.addEventListener("DOMContentLoaded", function () {
 
-const button = document.querySelector("#botao-buscar");
+  mediaVida.innerHTML = calculaMediaVida(data);
+  mediaAltura.innerHTML = calculaMediaAltura(data);
+});
+
+const button = document.querySelector("#button-clear");
 button.addEventListener('click', function () {
   const filtroSelecionado = document.querySelector("#select__subFilter").value;
-  const ordenacaoSelecionada = document.querySelector("#select__ordering").value;
-  const ordernacaoAscDesc = document.querySelector('input[name="ordering"]:checked').value;
+  const ordenacaoSelecionada = document.querySelector("#sort-order").value;
+  const ordernacaoAscDesc = document.querySelector('input[name="order"]:checked').value;
 
   const meuDataSetFiltrado = filterBy(data, filtroSelecionado);
   const meuDataSetOrdenado = sortBy(meuDataSetFiltrado, ordenacaoSelecionada, ordernacaoAscDesc);
@@ -37,4 +42,6 @@ button.addEventListener('click', function () {
   //recalcula as medias de acordo com os filtros
   mediaAltura.innerHTML = calculaMediaAltura(meuDataSetOrdenado);
   mediaVida.innerHTML = calculaMediaVida(meuDataSetOrdenado);
+
 });
+
