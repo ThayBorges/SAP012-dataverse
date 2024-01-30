@@ -2,11 +2,11 @@
 ![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-# PlantaCarnivoraApp
+# Mundo das Plantas Carnívoras
 
 ## Definição do Produto
 
-O **PlantaCarnivoraApp** é uma aplicação voltada para famílias que não possuem animais de estimação, mas que desejam cultivar plantas carnívoras. A proposta é proporcionar uma experiência interativa e educativa para crianças, ensinando sobre o fascinante mundo das plantas carnívoras.
+O **Mundo das Plantas Carnívoras** é uma aplicação voltada para famílias que não possuem animais de estimação, mas que desejam cultivar plantas carnívoras. A proposta é proporcionar uma experiência interativa e educativa para crianças, ensinando sobre o fascinante mundo das plantas carnívoras.
 
 ### Recursos Principais
 
