@@ -54,8 +54,7 @@ Estamos comprometidos em abordar esses problemas e garantir que o **Mundo das Pl
 # Prompt usado
 
 1. **ChatGpt que fez a geração de dados**
-
-!<img width="1365" alt="Captura de Tela 2024-01-03 às 19 13 24" src="Captura de Tela 2024-01-22 às 14.07.15.png">
+<img alt="captura" src="Captura de Tela 2024-01-22 às 14.07.15.png">
 
 2. **Bing para criar imagem**
 
@@ -66,7 +65,8 @@ img width="1365" alt="Captura de Tela 2024-01-03 às 19 13 24"
 Durante a construção do projeto, usamos algumas referências que nos auxiliaram na formação de dados para os facts do proejeto. Alguns dados são ficticios apenas para incrementar dados.
 
 1. **Site - Viva Decora**
-    - ![https://www.vivadecora.com.br/revista/plantas-carnivoras/]
+
+    <a href="https://www.vivadecora.com.br/revista/plantas-carnivoras"></a>
 
 ## Tecnologias utilizadas
 
