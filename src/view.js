@@ -17,10 +17,11 @@ export const renderItems = (data) => {
         <li itemscope itemtype="plant__item" class="plant__item">
           <div class="plant__content">
             <img src="${item.imageUrl}" class="plant__img">
-            <p><strong>${item.name}</strong></p>
+            <dd itemprop="sort-order"><p><strong>${item.name}</strong></p></dd>
+            <dd itemprop="sort-order"><p>Altura em cm: ${item.alturaPlanta}</p></dd>
+            <dd itemprop="sort-order"><p>Preço: R$ ${item.precoPlanta.toFixed(2)}</p></dd>
+
             <p class="plant__description">${item.shortDescription}</p>
-            <p>Altura em cm: ${item.alturaPlanta}</p>
-            <p>Preço: R$ ${item.precoPlanta.toFixed(2)}</p>
             <p>Tempo de vida em anos: ${item.tempoDeVida}</p>
             <p>Facilidade de Criação: ${item.facilidadeCriacao}</p>
             <p>Tipo de captura das presas: ${item.capturaPresas}</p>
