@@ -12,7 +12,7 @@ imgLogoFooter.setAttribute("id", "logo__footer");
 imgLogoFooter.src = "/assets/logo.jpg";
 body.insertBefore(imgLogoFooter, footer)
 
-const selectSubFilter = document.getElementById("select__subFilter");
+const selectSubFilter = document.getElementById("select-subFilter");
 const selectFilter = document.getElementById("select-filter");
 selectSubFilter.innerHTML = renderFilter(selectFilter.value)
 selectFilter.addEventListener('change', function (event) {
@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const button = document.querySelector("#button-clear");
 button.addEventListener('click', function () {
-  const filtroSelecionado = document.querySelector("#select__subFilter").value;
-  const ordenacaoSelecionada = document.querySelector("#sort-order").value;
+  const filtroSelecionado = document.querySelector("#select-subFilter").value;
+  const ordenacaoSelecionada = document.querySelector("#select-sort").value;
   const ordernacaoAscDesc = document.querySelector('input[name="order"]:checked').value;
 
   const meuDataSetFiltrado = filterBy(data, filtroSelecionado);

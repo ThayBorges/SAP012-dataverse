@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -39,8 +39,8 @@
 
   <h2>Tipos de Plantas</h2>
   <div>
-    <label for="sort-order">Ordenar por: </label>
-    <select name="sort-order" id="sort-order">
+    <label for="select-sort">Ordenar por: </label>
+    <select name="sort-order" id="select-sort" data-testid="select-sort">
       <option value="alturaPlanta">Altura</option>
       <option value="precoPlanta">Preço</option>
       <option value="name">Nome</option>
@@ -48,18 +48,18 @@
 
     <input type="radio" id="asc" value="asc" name="order" checked />
     <label for="asc">Crescente</label>
-    <input type="radio" id="desc" value="desc" name="order" />
+    <input type="radio" id="desc" value="desc" name="order"/>
     <label for="desc">Decrescente</label><br>
 
     <label for="select-filter">Filtrar por: </label>
-    <select name="select-filter" id="select-filter">
+    <select name="select-filter" id="select-filter" data-testid="select-filter">
       <option value="facilidadeCriacao">Facilidade de criação</option>
       <option value="tempoDeVida">Tempo de vida</option>
       <option value="capturaPresas">Captura de presas</option>
     </select>
 
-    <label for="select__subFilter"> e </label>
-    <select name="select__subFilter" id="select__subFilter">
+    <label for="select-subFilter"> e </label>
+    <select name="select-subFilter" id="select-subFilter">
 
     </select>
     <button data-testid="button-clear" id="button-clear">Buscar</button>
