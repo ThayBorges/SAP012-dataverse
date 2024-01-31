@@ -41,6 +41,7 @@
   <div>
     <label for="select-sort">Organizar por: </label>
     <select name="select-sort" id="select-sort" data-testid="select-sort">
+      <option value="default"> </option>
       <option value="alturaPlanta">Altura</option>
       <option value="precoPlanta">Preço</option>
       <option value="name">Nome</option>
@@ -48,6 +49,7 @@
 
     <label for="select-order"> e </label>
     <select name="sort-order" id="select-order" data-testid="select-order">
+      <option value="default"> </option>
       <option value="asc">Asc</option>
       <option value="desc">Desc</option>
     </select><br>
@@ -59,6 +61,7 @@
 
     <label for="select-filter">Filtrar por: </label>
     <select name="select-filter" id="select-filter" data-testid="select-filter">
+      <option value="default"> </option>
       <option value="facilidadeCriacao">Facilidade de criação</option>
       <option value="tempoDeVida">Tempo de vida</option>
       <option value="capturaPresas">Captura de presas</option>
@@ -68,13 +71,12 @@
     <select name="select-subFilter" id="select-subFilter">
 
     </select>
-    <button data-testid="button-clear" id="button-clear">Buscar</button>
+    <button data-testid="button-clear" id="button-clear">Limpar</button>
   </div>
 
   <main id="root"></main>
 
   <footer>Mundo das Plantas Carnívoras ♥</footer><br>
-  <!-- <img src="./assets/logo.jpg" id="logo__footer"> -->
 
   <script src="main.js" type="module"></script>
 
