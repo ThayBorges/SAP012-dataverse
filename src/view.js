@@ -17,9 +17,9 @@ export const renderItems = (data) => {
         <li itemscope itemtype="plant__item" class="plant__item">
           <div class="plant__content">
             <img src="${item.imageUrl}" class="plant__img">
-            <dd itemprop="sort-order"><strong>${item.name}</strong></dd>
-            <dd itemprop="sort-order">Altura em cm: ${item.alturaPlanta}</dd>
-            <dd itemprop="sort-order">Preço: R$ ${item.precoPlanta.toFixed(2)}</dd>
+            <dd itemprop="select-sort"><strong>${item.name}</strong></dd>
+            <dd itemprop="select-sort">Altura em cm: ${item.alturaPlanta}</dd>
+            <dd itemprop="select-sort">Preço: R$ ${item.precoPlanta.toFixed(2)}</dd>
             <dd itemprop="plant__description" class="plant__description">${item.shortDescription}</dd>
             <dd itemprop="sort-filter">Tempo de vida em anos: ${item.tempoDeVida}</dd>
             <dd itemprop="sort-filter">Facilidade de Criação: ${item.facilidadeCriacao}</dd>
@@ -50,7 +50,7 @@ export const renderFilter = (filter) => {
     `
   } else {
     blocoFilter = `
-    <option value="Fácil">Fácil</option>
+    <option value="facil">Fácil</option>
     <option value="Moderado">Moderado</option>
     <option value="Díficil">Díficil</option>
     `
