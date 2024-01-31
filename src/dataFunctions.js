@@ -14,12 +14,8 @@ export const sortBy = (data, itemSelecionado, order) => {
     if (itemSelecionado === "alturaPlanta" || itemSelecionado === "precoPlanta") {
 
       return a.facts[itemSelecionado] - b.facts[itemSelecionado];
-    } else if (itemSelecionado === "name") {
-
-      return a[itemSelecionado].localeCompare(b[itemSelecionado]);
     } else {
-
-      return 0;
+      return a.name.localeCompare(b.name);
     }
   });
 
