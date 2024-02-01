@@ -2,7 +2,7 @@ import { renderItems, renderFilter } from './view.js';
 import data from './data/dataset.js';
 import { sortBy, filterBy, calculaMediaVida, calculaMediaAltura } from './dataFunctions.js';
 
-const root = document.getElementById("root");
+const root = document.querySelector("#root");
 root.innerHTML = renderItems(data);
 
 const footer = document.querySelector("footer");
@@ -25,8 +25,8 @@ selectSubFilter.addEventListener('change', function () {
   ordenarEfiltrar()
 });
 
-const selectSort = document.getElementById("select-sort");
-const selectOrder = document.getElementById("select-order");
+const selectSort = document.querySelector("#select-sort");
+const selectOrder = document.querySelector("#select-order");
 selectSort.addEventListener('change', function () {
   ordenarEfiltrar()
 });
@@ -47,12 +47,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const button = document.querySelector("#button-clear");
 button.addEventListener('click', function () {
-  selectSort.value = "name"
-  selectOrder.value = "asc"
-  selectSubFilter.value = "facil"
-  selectFilter.value = "facilidadeCriacao"
-
-  ordenarEfiltrar()
+  root.innerHTML = renderItems(data);
+  selectFilter.value = '';
+  selectSubFilter.value = '';
+  selectSort.value = '';
+  selectOrder.value = '';
 });
 
 function ordenarEfiltrar() {
