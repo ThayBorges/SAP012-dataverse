@@ -51,7 +51,7 @@ export const renderFilter = (filter) => {
   } else {
     blocoFilter = `
     <option value="default"> </option>
-    <option value="facil">Fácil</option>
+    <option value="Fácil" selected>Fácil</option>
     <option value="Moderado">Moderado</option>
     <option value="Díficil">Díficil</option>
     `
