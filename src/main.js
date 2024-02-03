@@ -65,4 +65,6 @@ imgLogoFooter.src = "/assets/logo.jpg";
 body.insertBefore(imgLogoFooter, footer)
 
 
-selectSubFilter.innerHTML = renderFilter(selectFilter.value)
+selectSubFilter.value = ""
+
+

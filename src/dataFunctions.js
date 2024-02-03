@@ -1,8 +1,9 @@
 export const filterBy = (data, filterValue) => {
-
+  if (filterValue === ""){
+    return data
+  }
   const filterString = filterValue;
   const filteredData = data.filter(item => {
-
     return item.facts.tempoDeVida === parseInt(filterString) || item.facts.facilidadeCriacao === filterString || item.facts.capturaPresas === filterString;
   });
 
@@ -10,9 +11,11 @@ export const filterBy = (data, filterValue) => {
 };
 
 export const sortBy = (data, itemSelecionado, order) => {
+  if (itemSelecionado === "" || order === ""){
+    return data
+  }
   data.sort((a, b) => {
     if (itemSelecionado === "alturaPlanta" || itemSelecionado === "precoPlanta") {
-
       return a.facts[itemSelecionado] - b.facts[itemSelecionado];
     } else {
       return a.name.localeCompare(b.name);
