@@ -17,14 +17,13 @@ export const renderItems = (data) => {
         <li itemscope itemtype="plant__item" class="plant__item">
           <div class="plant__content">
             <img src="${item.imageUrl}" class="plant__img">
-            <dd itemprop="sort-order"><p><strong>${item.name}</strong></p></dd>
-            <dd itemprop="sort-order"><p>Altura em cm: ${item.alturaPlanta}</p></dd>
-            <dd itemprop="sort-order"><p>Preço: R$ ${item.precoPlanta.toFixed(2)}</p></dd>
-
-            <p class="plant__description">${item.shortDescription}</p>
-            <p>Tempo de vida em anos: ${item.tempoDeVida}</p>
-            <p>Facilidade de Criação: ${item.facilidadeCriacao}</p>
-            <p>Tipo de captura das presas: ${item.capturaPresas}</p>
+            <dd itemprop="select-sort"><strong>${item.name}</strong></dd>
+            <dd itemprop="select-sort">Altura em cm: ${item.alturaPlanta}</dd>
+            <dd itemprop="select-sort">Preço: R$ ${item.precoPlanta.toFixed(2)}</dd>
+            <dd itemprop="plant__description" class="plant__description">${item.shortDescription}</dd>
+            <dd itemprop="sort-filter">Tempo de vida em anos: ${item.tempoDeVida}</dd>
+            <dd itemprop="sort-filter">Facilidade de Criação: ${item.facilidadeCriacao}</dd>
+            <dd itemprop="sort-filter">Tipo de captura das presas: ${item.capturaPresas}</dd>
           </div>
         </li>
   `
@@ -51,7 +50,8 @@ export const renderFilter = (filter) => {
     `
   } else {
     blocoFilter = `
-    <option value="Fácil">Fácil</option>
+    <option value="default"> </option>
+    <option value="Fácil" selected>Fácil</option>
     <option value="Moderado">Moderado</option>
     <option value="Díficil">Díficil</option>
     `
