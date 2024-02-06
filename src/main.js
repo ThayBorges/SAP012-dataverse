@@ -5,13 +5,6 @@ import { sortBy, filterBy, calculaMediaVida, calculaMediaAltura } from './dataFu
 const root = document.getElementById("root");
 root.innerHTML = renderItems(data);
 
-const footer = document.querySelector("footer");
-const body = footer.parentNode;
-const imgLogoFooter = document.createElement("img");
-imgLogoFooter.setAttribute("id", "logo__footer");
-imgLogoFooter.src = "/assets/logo.jpg";
-body.insertBefore(imgLogoFooter, footer)
-
 const selectSubFilter = document.getElementById("select-subFilter");
 const selectFilter = document.getElementById("select-filter");
 selectSubFilter.innerHTML = renderFilter(selectFilter.value)
