@@ -12,6 +12,7 @@ const selectFilter = document.getElementById("select-filter");
 const button = document.querySelector("#button-clear");
 const mediaVida = document.querySelector(".mediaVida");
 const mediaAltura = document.querySelector(".mediaAltura");
+const footer = document.querySelector("footer");
 
 //listerns
 selectOrder.addEventListener('change', function () {
@@ -60,3 +61,7 @@ root.innerHTML = renderItems(data);
 selectSubFilter.value = ""
 
 
+const novoParagrafo = document.createElement("p");
+const texto = document.createTextNode("Feito com ♥ por Renata Saraiva e Thaysa Borges");
+novoParagrafo.appendChild(texto);
+footer.appendChild(texto);
