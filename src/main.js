@@ -7,7 +7,6 @@ import { sortBy, filterBy, calculaMediaVida, calculaMediaAltura } from './dataFu
 const root = document.querySelector("#root");
 const selectSort = document.querySelector("#select-sort");
 const selectOrder = document.querySelector("#select-order");
-const footer = document.querySelector("footer");
 const selectSubFilter = document.getElementById("select-subFilter");
 const selectFilter = document.getElementById("select-filter");
 const button = document.querySelector("#button-clear");
@@ -57,13 +56,6 @@ function ordenarEfiltrar() {
 
 //initialize
 root.innerHTML = renderItems(data);
-
-const body = footer.parentNode;
-const imgLogoFooter = document.createElement("img");
-imgLogoFooter.setAttribute("id", "logo__footer");
-imgLogoFooter.src = "/assets/logo.jpg";
-body.insertBefore(imgLogoFooter, footer)
-
 
 selectSubFilter.value = ""
 
