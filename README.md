@@ -28,9 +28,9 @@ O **Mundo das Plantas Carnívoras** é uma aplicação voltada para famílias qu
 
 ## Design da Interface de Usuário (Protótipo de Alta Fidelidade)
 
+1. Protótipo do Desktop e Mobile.
 
-[Inserir imagens ou link para os protótipos aqui]
-
+<img width="590" alt="Captura de Tela 2024-02-07 às 08 33 20" src="https://github.com/ThayBorges/SAP012-dataverse/assets/107226201/8543ac8f-fe11-4a23-87b5-b21ced6c2ef9">
 
 
 ## Lista de Problemas Detectados por Meio de Testes de Usabilidade
