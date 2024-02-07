@@ -59,7 +59,7 @@ Estamos comprometidos em abordar esses problemas e garantir que o **Mundo das Pl
 
 2. **Bing para criar imagem**
 
-<img width="1010" alt="Captura de Tela 2024-02-07 às 08 39 52" src="https://github.com/ThayBorges/SAP012-dataverse/assets/107226201/6d901643-cb2a-422f-86af-ac0a4c071796">
+<img width="733" alt="Captura de Tela 2024-02-07 às 08 41 44" src="https://github.com/Laboratoria/SAP012-dataverse/assets/107226201/897f633c-c279-4bee-897b-2d76b91c77fa">
 
 ## Referências
 
