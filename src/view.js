@@ -16,14 +16,14 @@ export const renderItems = (data) => {
     blocoItems += `
         <li itemscope itemtype="plant__item" class="plant__item">
           <div class="plant__content">
+            <dd itemprop="sort-order"><p><strong>${item.name}</strong></p></dd>
             <img src="${item.imageUrl}" class="plant__img">
-            <dd itemprop="select-sort"><strong>${item.name}</strong></dd>
-            <dd itemprop="select-sort">Altura em cm: ${item.alturaPlanta}</dd>
-            <dd itemprop="select-sort">Preço: R$ ${item.precoPlanta.toFixed(2)}</dd>
-            <dd itemprop="plant__description" class="plant__description">${item.shortDescription}</dd>
-            <dd itemprop="sort-filter">Tempo de vida em anos: ${item.tempoDeVida}</dd>
-            <dd itemprop="sort-filter">Facilidade de Criação: ${item.facilidadeCriacao}</dd>
-            <dd itemprop="sort-filter">Tipo de captura das presas: ${item.capturaPresas}</dd>
+            <dd itemprop="sort-order"><p><strong>Altura:</strong> ${item.alturaPlanta}cm</p></dd>
+            <dd itemprop="sort-order"><p><strong>Preço:</strong> R$ ${item.precoPlanta.toFixed(2)}</p></dd>
+            <p> <class="plant__description">${item.shortDescription}</p>
+            <p><strong>Tempo de vida:</strong> ${item.tempoDeVida} anos</p>
+            <p><strong>Facilidade de Criação:</strong> ${item.facilidadeCriacao}</p>
+            <p><strong>Tipo de captura das presas:</strong> ${item.capturaPresas}</p>
           </div>
         </li>
   `
