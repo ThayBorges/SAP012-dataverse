@@ -173,6 +173,12 @@ h3 {
 
 .plant__item dd {
   text-align: center;
+  display: inline;
+}
+
+dd {
+  margin: 0;
+  padding: 0px;
 }
 
 .plant__item p {
