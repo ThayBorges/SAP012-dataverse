@@ -16,10 +16,10 @@ export const renderItems = (data) => {
     blocoItems += `
         <li itemscope itemtype="plant__item" class="plant__item">
           <div class="plant__content">
-            <dd itemprop="sort-order"><p><strong>${item.name}</strong></p></dd>
+            <dd itemprop="select-sort"><p><strong>${item.name}</strong></p></dd>
             <img src="${item.imageUrl}" class="plant__img">
-            <dd itemprop="sort-order"><p><strong>Altura:</strong> ${item.alturaPlanta}cm</p></dd>
-            <dd itemprop="sort-order"><p><strong>Preço:</strong> R$ ${item.precoPlanta.toFixed(2)}</p></dd>
+            <dd itemprop="select-sort"><p><strong>Altura:</strong> ${item.alturaPlanta}cm</p></dd>
+            <dd itemprop="select-sort"><p><strong>Preço:</strong> R$ ${item.precoPlanta.toFixed(2)}</p></dd>
             <p> <class="plant__description">${item.shortDescription}</p>
             <p><strong>Tempo de vida:</strong> ${item.tempoDeVida} anos</p>
             <p><strong>Facilidade de Criação:</strong> ${item.facilidadeCriacao}</p>
