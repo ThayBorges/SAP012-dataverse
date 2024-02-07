@@ -28,7 +28,7 @@ O **Mundo das Plantas Carnívoras** é uma aplicação voltada para famílias qu
 
 ## Design da Interface de Usuário (Protótipo de Alta Fidelidade)
 
-1. Protótipo do Desktop e Mobile.
+1. **Protótipo do Desktop e Mobile:**
 
 <img width="590" alt="Captura de Tela 2024-02-07 às 08 33 20" src="https://github.com/ThayBorges/SAP012-dataverse/assets/107226201/8543ac8f-fe11-4a23-87b5-b21ced6c2ef9">
 
@@ -54,19 +54,20 @@ Estamos comprometidos em abordar esses problemas e garantir que o **Mundo das Pl
 # Prompt usado
 
 1. **ChatGpt que fez a geração de dados**
-<img alt="captura" src="Captura de Tela 2024-01-22 às 14.07.15.png">
+
+<img width="1010" alt="Captura de Tela 2024-02-07 às 08 39 52" src="https://github.com/ThayBorges/SAP012-dataverse/assets/107226201/6d901643-cb2a-422f-86af-ac0a4c071796">
 
 2. **Bing para criar imagem**
 
-img width="1365" alt="Captura de Tela 2024-01-03 às 19 13 24"
+<img width="1010" alt="Captura de Tela 2024-02-07 às 08 39 52" src="https://github.com/ThayBorges/SAP012-dataverse/assets/107226201/6d901643-cb2a-422f-86af-ac0a4c071796">
 
 ## Referências
 
 Durante a construção do projeto, usamos algumas referências que nos auxiliaram na formação de dados para os facts do proejeto. Alguns dados são ficticios apenas para incrementar dados.
 
-1. **Site - Viva Decora**
+1. **Referências**
 
-    <a href="https://www.vivadecora.com.br/revista/plantas-carnivoras"></a>
+[Fonte: Site Viva decora](https://www.vivadecora.com.br/revista/plantas-carnivoras)
 
 ## Tecnologias utilizadas
 
